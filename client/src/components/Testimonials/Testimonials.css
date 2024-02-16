@@ -1,0 +1,47 @@
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.title {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
+.container {
+  width: 80vw;
+  max-width: var(--fixed-width);
+}
+/* Styles for screens smaller than 768px */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .underline {
+    width: 3rem;
+  }
+  .container {
+    width: 90vw;
+  }
+}
+
+/* Styles for screens smaller than 480px */
+@media (max-width: 480px) {
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .underline {
+    width: 2rem;
+  }
+  .container {
+    width: 95vw;
+  }
+}

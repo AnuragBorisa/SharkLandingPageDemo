@@ -1,0 +1,46 @@
+.promises-card{
+  
+   padding: 5rem;
+   display: flex;
+   flex-wrap: nowrap;
+   gap: 2rem;
+}
+.promises-internal{
+    background-color: rgba(243, 243, 243, 0.062);
+    width: 12vw;
+    height: 17vh;
+
+    border-radius: 20px;
+    padding: 2rem;
+}
+.promises-down{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 2rem;
+}
+.promises-up{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+@media (max-width: 768px) {
+    .promises-card {
+      flex-direction: column;
+      padding: 2rem;
+      gap: 1rem;
+    }
+    .promises-internal {
+      width: 80vw;
+      height: auto;
+    }
+  }
+  
+  /* Styles for screens smaller than 480px */
+  @media (max-width: 480px) {
+    .promises-internal {
+    
+      width: 70vw;
+      padding: 0;
+    }
+  }

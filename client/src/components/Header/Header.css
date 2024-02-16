@@ -1,0 +1,91 @@
+@font-face {
+  font-family: "EgGothic";
+  src: local("Engravers' Gothic Regular"),
+    url("../resourcecs/fonts/Engravers'\ Gothic\ Regular.otf")
+      format("opentype");
+}
+@font-face {
+  font-family: "DamHeavy";
+  src: local("Damavand-Heavy ?"),
+    url("../resourcecs/fonts/Damavand-Heavy.ttf") format("truetype");
+}
+
+.navBar {
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 8vh;
+  align-items: center;
+}
+.navlinks {
+  display: flex;
+  gap: 10%;
+  font-family: "EgGothic";
+  justify-self: center;
+  width: 80%;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: antiquewhite;
+  
+}
+.logo {
+  color: #c2e8ff;
+  font-size: 1.5rem;
+  font-family: "DamHeavy";
+  justify-self: center;
+  padding-bottom: 2%;
+}
+.header-logo {
+  height: 8vh;
+
+  justify-self: center;
+}
+.header-btn {
+  font-family: "Noyh", sans-serif;
+  border-radius: 20rem;
+  width: 30%;
+  height: 4vh;
+  background-color: rgba(122, 121, 121, 0.966);
+  justify-self: center;
+  font-size: 1rem;
+  border: 0;
+}
+@media (max-width: 768px) {
+  .navBar {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+  }
+  .navlinks {
+    flex-direction: column;
+    gap: 5%;
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .logo {
+    font-size: 1.2rem;
+    padding-bottom: 0;
+  }
+  .header-logo {
+    height: auto;
+    width: 80%;
+  }
+  .header-btn {
+    width: 10%;
+    height: 6vh;
+    font-size: 1.2rem;
+  }
+}
+
+/* Styles for screens smaller than 480px */
+@media (max-width: 480px) {
+  .navlinks {
+    font-size: 1rem;
+  }
+  .logo {
+    font-size: 1rem;
+  }
+  .header-btn {
+    width: 40%;
+    height: 6vh;
+    font-size: 1rem;
+  }
+}

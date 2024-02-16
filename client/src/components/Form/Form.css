@@ -1,0 +1,156 @@
+.formContainer {
+ 
+  width: 35vw;
+ 
+  padding-left: 5rem;
+  
+  display: flex;
+  flex-direction: column;
+
+ padding-bottom: 3rem;
+}
+.form-lables {
+  padding: 1rem;
+
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5vw;
+  padding-top: 2rem;
+}
+
+input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-bottom: 2px solid #4caf50;
+  }
+.internal-forms {
+  display: flex;
+  flex-direction: column;
+}
+.internal-forms input {
+  border: 0;
+  padding-top: 1rem;
+  background-color: #d3d3d300;
+
+  width: 100%;
+  border-bottom: 2px solid rgb(31, 130, 201);
+}
+.internal-forms b {
+  color: #7c9fc9;
+}
+input:focus {
+  outline: none;
+  color: wheat;
+}
+
+.form-sign-in {
+ 
+  align-self: flex-end;
+  border: 0;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+ 
+  padding-top: 3rem;
+  
+}
+.sign-up-form {
+  align-self: flex-start;
+
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+.form-btm {
+  padding: 1rem;
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: end;
+  padding-top: 2vw;
+}
+.form-btm-label {
+  flex-basis: 100%;
+}
+.form-btm-p {
+  padding: 0;
+
+  flex-basis: 70%;
+  font-size: 1rem;
+}
+.form-btm-signup {
+  border: 0;
+  flex-basis: 30%;
+  margin-top: 1rem;
+  font-family: "Noyh", sans-serif;
+  border-radius: 20px;
+  color: black;
+  height: 4vh;
+  background-color: #c3e8fe;
+  justify-self: center;
+  font-size: 1rem;
+}
+@media (max-width: 768px) {
+  .formContainer {
+    width: 90vw;
+    padding-left: 2rem;
+  }
+  .form-lables {
+    width: 80vw;
+    gap: 1.5vw;
+  }
+  .form-sign-in {
+    width: 50vw;
+    height: 6vh;
+    font-size: 1.2rem;
+  }
+  .sign-up-form {
+    font-size: 1.5rem;
+  }
+  .form-btm {
+    width: 30%;
+    padding-top: 1vw;
+  }
+  .form-btm-p {
+    flex-basis: 50%;
+  }
+  .form-btm-signup {
+    flex-basis: 50%;
+    height: 6vh;
+    font-size: 1.2rem;
+  }
+}
+
+/* Styles for screens smaller than 480px */
+@media (max-width: 480px) {
+  .formContainer {
+    
+    width: 95vw;
+    padding-left: 1rem;
+  }
+  .form-lables {
+    
+    width:85vw;
+    gap: 1vw;
+  }
+  .form-sign-in {
+    width: 70vw;
+    height: 8vh;
+    font-size: 1.4rem;
+  }
+  .sign-up-form {
+    font-size: 1.2rem;
+  }
+  .form-btm {
+    width: 50%;
+    padding-top: 0.5vw;
+  }
+  .form-btm-p {
+    flex-basis: 40%;
+    font-size: 0.8rem;
+  }
+  .form-btm-signup {
+    flex-basis: 60%;
+    height: 8vh;
+    font-size: 1.4rem;
+  }
+}

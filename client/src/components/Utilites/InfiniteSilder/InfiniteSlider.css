@@ -1,0 +1,79 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 3rem 0;
+  width: 70vw;
+
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 10vw;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #5381b2);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #5381b2);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 10s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 7vh;
+  margin: 0 4rem;
+}
+@media (max-width: 768px) {
+  .logos {
+    width: 90vw;
+  }
+  .logos:before,
+  .logos:after {
+    width: 5vw;
+  }
+  .logos-slide img {
+    height: 5vh;
+    margin: 0 2rem;
+  }
+}
+
+/* Styles for screens smaller than 480px */
+@media (max-width: 480px) {
+  .logos {
+    width: 95vw;
+  }
+  .logos:before,
+  .logos:after {
+    width: 3vw;
+  }
+  .logos-slide img {
+    height: 3vh;
+    margin: 0 1rem;
+  }
+}

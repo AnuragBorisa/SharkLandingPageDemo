@@ -1,0 +1,108 @@
+import React from "react";
+import "./Form.css";
+import axios from "axios";
+import { useRef } from "react";
+
+const Form = (props) => {
+  const formRef = useRef();
+  const onSubmitHandler = (event) => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    console.log(data);
+    const fullName = data.get("FullName");
+    const email = data.get("email");
+    const phoneNumber = data.get("phonenumber");
+
+    axios
+      .post("http://localhost:8080/saveForm/form", {
+        fullName,
+        email,
+        phoneNumber,
+      })
+      .then((res) => {
+        console.log(res.data.message);
+        formRef.current.reset();
+      })
+      .catch((err) => {
+        console.log(err.response.data);
+      });
+  };
+
+  return (
+    <>
+      <form
+        action="/"
+        method="POST"
+        className={props.className}
+        onSubmit={onSubmitHandler}
+        ref={formRef}
+      >
+        <div className="formContainer">
+          <div className="form-sign-in">
+            <button>Random Stuff</button>
+          </div>
+          <h1 className="sign-up-form">Get Enrolled</h1>
+          <div className="form-lables">
+            <div className="internal-forms">
+              <label htmlFor="Full-Name">
+                <b>FULL NAME</b>
+              </label>
+              <input
+                type="text"
+                placeholder="Enter Your Full Name"
+                name="FullName"
+                required
+              />{" "}
+            </div>
+            <div className="internal-forms">
+              <label htmlFor="email">
+                <b>EMAIL</b>
+              </label>
+              <input
+                type="text"
+                placeholder="Enter Email"
+                name="email"
+                required
+              />
+            </div>
+            <div className="internal-forms">
+              <label htmlFor="phonenumber">
+                <b>PHONE NUMBER</b>
+              </label>
+              <input
+                type="tel"
+                placeholder="Enter Phone-Number"
+                name="phonenumber"
+                required
+              />
+            </div>
+          </div>
+
+          <div className="form-btm">
+            <label className="form-btm-label">
+              <input
+                type="checkbox"
+                checked
+                name="remember"
+                style={{ marginBottom: "15px" }}
+              />{" "}
+              Remember me
+            </label>
+            <p className="form-btm-p">
+              By creating an account you agree to our{" "}
+              <a href="#" style={{ color: "dodgerblue" }}>
+                Terms & Privacy
+              </a>
+              .
+            </p>
+            <button type="submit" className="form-btm-signup">
+              Sign Up
+            </button>
+          </div>
+        </div>
+      </form>
+    </>
+  );
+};
+
+export default Form;
