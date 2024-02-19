@@ -123,7 +123,7 @@
       width: 60%;
     }
     .footer-logo-div {
-   
+      padding: 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -142,7 +142,7 @@
      
     }
     .footer-logo-div {
-   
+      padding: 0;
       display: flex;
       justify-content: center;
       align-items: center;

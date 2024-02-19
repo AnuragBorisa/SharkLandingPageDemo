@@ -136,7 +136,7 @@ input:focus {
   .form-btm-signup {
     flex-basis: 20%;
     height: 5vh;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     margin-top: -2.5rem;
   }
 }
