@@ -64,11 +64,12 @@
       padding-top: 2rem;
       gap: 2rem;
       padding-bottom: 2rem;
+      
   }
   .promises-up{
       display: flex;
       flex-direction: column;
-      padding-top: 2rem;
+      padding-top: 0rem;
       gap: 2rem;
       padding-bottom: 2rem;
   }
@@ -81,9 +82,11 @@
       
     }
     .promises-internal {
-      margin-left: 5rem;
+      
+      align-self: center;
+      margin: 0;
       width: 40vw;
-      height: 20vh;
+      height: 15vh;
       padding: 1rem;
     }
   }

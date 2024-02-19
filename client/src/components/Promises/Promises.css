@@ -7,6 +7,7 @@
     padding: 5rem;
     padding-top: 0;
     padding-bottom: 2rem;
+    
 }
 .promises-left{
     
@@ -40,6 +41,7 @@
 @media (max-width: 768px) {
     .promises-container {
       flex-direction: column;
+      justify-content: center;
     }
     .promises-left {
     
@@ -67,20 +69,27 @@
   /* Styles for screens smaller than 480px */
   @media (max-width: 480px) {
     .promises-left{
-       
+      display: flex;
+      justify-content: center;
+        gap: 1rem;
         width: 80vw;
      }
      .promises-right {
-  
+      
       width: 80vw;
     
      }
     .promises-heading {
-      width: 90vw;
-      font-size: 1.8rem;
+      align-self: center;
+      width: 80vw;
+      font-size: 1.5rem;
+     
     }
     .promises-para {
-      width: 80vw;
-      font-size: 0.6rem;
+      text-align: center;
+     
+      align-self: center;
+      width: 90vw;
+      font-size: 0.8rem;
     }
   }

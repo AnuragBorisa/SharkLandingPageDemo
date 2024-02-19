@@ -95,8 +95,11 @@ input:focus {
 }
 @media (max-width: 768px) {
   .formContainer {
+  
+    align-self: center;
     width: 70vw;
-    padding-left: 2rem;
+    padding-left: 0rem;
+    
   }
   .form-lables {
     height: 40vh;
@@ -111,7 +114,7 @@ input:focus {
     padding-top: 1.5rem;
   }
   .form-sign-in {
-    background-color: #4caf50;
+  
     font-size: 1.2rem;
     margin-right: 1rem;
   }
@@ -142,7 +145,7 @@ input:focus {
   .formContainer {
     
     width: 80vw;
-    padding-left: 1rem;
+    padding-left: 0rem;
   }
   .form-lables {
     
@@ -150,12 +153,12 @@ input:focus {
     gap: 1vw;
   }
   .form-sign-in {
-    background-color: #4caf50;
-    margin-right: 3rem;
+    
+   
   }
   .whatsapp{
     height: 5vh;
-    width: 8vw;
+    width: 10vw;
     
   }
   .sign-up-form {

@@ -14,7 +14,7 @@
 
 }
 .ackn-para{
-    text-align: left;
+      text-align: center;
       width: 30vw;
       font-size: 1rem;
       margin-top: -2rem;
@@ -32,6 +32,7 @@
     .Acknowlege-container {
       padding: 2rem;
       gap: 1rem;
+      text-align: center;
     }
     .ackn-heading {
       font-size: 2rem;
@@ -53,6 +54,7 @@
       font-size: 1.5rem;
     }
     .ackn-para {
+      text-align: center;
       width: 90vw;
       font-size: 0.8rem;
       margin-top: -0.5rem;

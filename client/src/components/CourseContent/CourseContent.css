@@ -1,5 +1,5 @@
 .course-ctn {
- 
+  
   padding: 5rem;
   padding-top: 0;
   display: flex;
@@ -7,6 +7,7 @@
   align-items: center;
 }
 .course-titles {
+  text-align: center;
   padding: 1rem;
   padding-left: 5rem;
   width: 70vw;
@@ -69,12 +70,16 @@ padding: 3rem;
 
   .course-tag {
     width: 80vw;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    margin-left: 1.5rem;
   }
   .course-tag-para {
     width: 90vw;
-    font-size: 0.6rem;
+    font-size: 0.7rem;
     padding-top: 0.2rem;
+    padding: 0;
+    margin-left: 1rem;
+   
   }
   .course-cards {
    
