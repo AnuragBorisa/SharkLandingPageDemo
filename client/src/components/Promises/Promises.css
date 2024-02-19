@@ -27,7 +27,7 @@
     flex-basis: 1;
 }
 .promises-heading{
-    text-align: center;
+   
     width: 30vw;
     font-size: 2.5rem;
     align-items: center;
@@ -35,7 +35,7 @@
     
 }
 .promises-para{
-    text-align: center;
+   
     margin-top: -1rem;
     width: 30vw;
     font-size: 1rem;
@@ -43,26 +43,35 @@
 }
 @media (max-width: 768px) {
     .promises-container {
+      
       flex-direction: column;
       justify-content: center;
     }
     .promises-left {
-    
+      display: flex;
+      flex-direction: column;
       flex-basis: auto;
       width: 100vw;
-      padding: 2rem;
+      justify-content: center;
+      
+      
+     
     }
     .promises-right {
+      
       width: 100vw;
-      padding: 2rem;
+     
+     
     }
     .promises-heading {
-     padding-left: 2rem;
+      text-align: center;
+    
      align-self: center;
       width: 80vw;
-      font-size: 2.5rem;
+      font-size: 2.0rem;
     }
     .promises-para {
+      text-align: center;
       width: 80vw;
       font-size: 0.8rem;
       align-self: center;
@@ -78,7 +87,8 @@
         width: 80vw;
      }
      .promises-right {
-      
+     
+
       width: 80vw;
     
      }
@@ -86,7 +96,7 @@
       align-self: center;
       width: 80vw;
       font-size: 1.5rem;
-      padding-right: 2rem;
+      
     }
     .promises-para {
       text-align: center;

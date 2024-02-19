@@ -34,10 +34,10 @@
       
     }
     .promises-internal {
-      
-      width: 30vw;
-      height: 15vh;
-      margin-left: 15rem;
+      align-self: center;
+      width: 35vw;
+      height: 17vh;
+    
       
     }
     .promises-down{
@@ -81,13 +81,5 @@
       gap: 0rem;
       
     }
-    .promises-internal {
-      
-      align-self: center;
-      margin: 0;
-      width: 40vw;
-      height: 17vh;
-      padding: 1rem;
-      
-    }
+    
   }
