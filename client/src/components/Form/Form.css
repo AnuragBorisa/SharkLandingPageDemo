@@ -1,13 +1,15 @@
 .formContainer {
  
   width: 35vw;
- 
+  border-radius: 20px;
   padding-left: 5rem;
   
   display: flex;
   flex-direction: column;
-
+  background-color: #ffffff00;
+  color: #0b6cff;
  padding-bottom: 3rem;
+ /* box-shadow: 0 0 10px 10px #0b6cff; */
 }
 .form-lables {
   padding: 1rem;
@@ -95,7 +97,7 @@ input:focus {
 }
 @media (max-width: 768px) {
   .formContainer {
-    background-color: #090a09;
+   
     margin: 0;
     align-self: center;
     width: 70vw;

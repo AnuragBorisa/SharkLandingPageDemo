@@ -60,8 +60,8 @@
   }
  
 .App {
-background-color: #010f23;
-color: aliceblue;
+background-color: #08090a;
+color: #f5f7ff;
 
 overflow: clip; /* use clip instead of hidden */
 }

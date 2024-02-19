@@ -11,18 +11,22 @@
 
  
 }
+.main-page-title-color{
+  color: #0b6cff;
+}
 .main-pge-right {
  
   flex-basis: 1;
   display: flex;
   flex-direction: column;
   padding: 1rem;
+  padding-left: 5rem;
   
 }
 .heading {
   padding: 1%;
-  
-  width: 80%;
+ 
+  width: 90%;
   align-self: center;
 }
 .wel-tag {
@@ -51,14 +55,14 @@
   
     padding: 1%;
     width: 20%;
-    margin-left: 5.5rem; 
+    margin-left: 2.3rem; 
 }
 .start-learn-btn{
     border-radius: 1px;
     border: 0;
     height: 5vh;
     font-size: 0.8rem;
-    border: 2px solid blue;
+    border: 2px solid  #0b6cff;
     background-color: rgba(240, 248, 255, 0);
     color: aliceblue;
     
@@ -67,7 +71,7 @@
 .main-pge-left {
   padding-right: 2rem;
   flex-basis: 1;
-  padding-top: 1%;
+ 
   
   
 } 
@@ -79,7 +83,9 @@
     margin-top: 1rem;
   }
   .main-pge-right {
-    
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
     flex-basis: auto;
   }
   .heading {
@@ -93,7 +99,7 @@
     width: 100%;
   }
   .main-para {
-    width: 100%;
+    width: 90%;
   }
   .main-page-btns {
     width: 50%;
@@ -113,6 +119,12 @@
 
 /* Styles for screens smaller than 480px */
 @media (max-width: 480px) {
+  .main-pge-right {
+    margin: 0;
+    padding: 0;
+    padding-left: 1rem;
+    flex-basis: auto;
+  }
   .main-heading {
     font-size: 1.8rem;
   }

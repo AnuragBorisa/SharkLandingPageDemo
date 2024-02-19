@@ -39,15 +39,20 @@
   
 }
 .logo {
-  color: #c2e8ff;
+  border: 0;
+  
+  background-color:  #d4d4d400;
+  color: #fafafa;
+ 
   font-size: 1.5rem;
   font-family: "DamHeavy";
   justify-self: center;
   padding-bottom: 2%;
+  
 }
 .header-logo {
   height: 8vh;
-
+  
   justify-self: center;
 }
 .header-btn {
@@ -55,10 +60,11 @@
   border-radius: 20rem;
   width: 30%;
   height: 4vh;
-  background-color: rgba(122, 121, 121, 0.966);
+  background-color:#0b6cff;
   justify-self: center;
   font-size: 1rem;
   border: 0;
+  color: #f5f7ff;
 }
 .header-mobile-view{
   

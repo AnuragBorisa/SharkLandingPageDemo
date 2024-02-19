@@ -6,9 +6,8 @@ const MainPage = () => {
    <section className='main-pge-container'>
     <div className='main-pge-right'>
     <div className='heading'>
-      <div className='wel-tag'><h1 className='test'>Welcome to Shark Cybertech</h1></div>
-      <div className='main-heading' ><h1  >Empowering Tomorrow's
-     Cyber Guardians </h1></div>
+      <div className='wel-tag'><h1 className='test'>Welcome to <span className='main-page-title-color'>Shark Cybertech</span></h1></div>
+      <div className='main-heading' ><h1  >Empowering Tomorrow's <span className='main-page-title-color' > <br></br>Cyber Guardians </span></h1></div>
      <div className='main-para'> <p>At Shark Cybertech, we're dedicated to empowering tomorrow's cyber guardians. Our cutting-edge courses and hands-on training prepare individuals to navigate the evolving cybersecurity landscape, ensuring they become formidable defenders of the digital realm.</p></div>
      
     </div>
