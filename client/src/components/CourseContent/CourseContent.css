@@ -38,6 +38,7 @@ padding: 3rem;
 @media (max-width: 768px) {
   .course-ctn {
     padding: 2rem;
+    padding-top: 0;
   }
   .course-titles {
     display: flex;
