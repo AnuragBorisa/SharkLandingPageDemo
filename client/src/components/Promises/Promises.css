@@ -43,9 +43,10 @@
 }
 @media (max-width: 768px) {
     .promises-container {
-      
+      padding-top: 2rem;
       flex-direction: column;
       justify-content: center;
+    
     }
     .promises-left {
       display: flex;
@@ -58,7 +59,7 @@
      
     }
     .promises-right {
-      
+      padding: 0;
       width: 100vw;
      
      

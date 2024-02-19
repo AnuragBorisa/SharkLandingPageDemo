@@ -2,6 +2,7 @@
   .review {
     background-color: rgba(0, 0, 0, 0.596);
     padding: 1.5rem 2rem;
+   
     border-radius: var(--radius);
     box-shadow: var(---shadow);
     transition: var(--transition);

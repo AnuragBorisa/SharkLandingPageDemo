@@ -95,7 +95,8 @@ input:focus {
 }
 @media (max-width: 768px) {
   .formContainer {
-  
+    background-color: #090a09;
+    margin: 0;
     align-self: center;
     width: 70vw;
     padding-left: 0rem;
@@ -134,7 +135,7 @@ input:focus {
   }
   .form-btm-signup {
     flex-basis: 20%;
-    height: 4vh;
+    height: 5vh;
     font-size: 1.2rem;
     margin-top: -2.5rem;
   }
@@ -144,6 +145,8 @@ input:focus {
 @media (max-width: 480px) {
   .formContainer {
     
+    margin: 0;
+    align-self: center;
     width: 80vw;
     padding-left: 0rem;
   }
