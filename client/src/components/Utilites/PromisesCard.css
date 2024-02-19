@@ -26,21 +26,64 @@
 }
 @media (max-width: 768px) {
     .promises-card {
+      
+      display: flex;
       flex-direction: column;
-      padding: 2rem;
-      gap: 1rem;
+      padding: 0rem;
+      gap: 0rem;
+      
     }
     .promises-internal {
-      width: 80vw;
-      height: auto;
+      
+      width: 30vw;
+      height: 15vh;
+      margin-left: 15rem;
+      
     }
+    .promises-down{
+      display: flex;
+      flex-direction: column;
+      padding-top: 2rem;
+      gap: 2rem;
+      padding-bottom: 2rem;
+  }
+  .promises-up{
+      display: flex;
+      flex-direction: column;
+      padding-top: 2rem;
+      gap: 2rem;
+      padding-bottom: 2rem;
+  }
   }
   
   /* Styles for screens smaller than 480px */
   @media (max-width: 480px) {
+    .promises-down{
+      display: flex;
+      flex-direction: column;
+      padding-top: 2rem;
+      gap: 2rem;
+      padding-bottom: 2rem;
+  }
+  .promises-up{
+      display: flex;
+      flex-direction: column;
+      padding-top: 2rem;
+      gap: 2rem;
+      padding-bottom: 2rem;
+  }
+    .promises-card {
+      
+      display: flex;
+      flex-direction: column;
+      
+      gap: 0rem;
+      
+    }
     .promises-internal {
-    
-      width: 70vw;
-      padding: 0;
+      margin-left: 5rem;
+      width: 40vw;
+      height: 20vh;
+      padding: 1rem;
     }
   }

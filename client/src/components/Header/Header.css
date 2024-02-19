@@ -15,6 +15,17 @@
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 8vh;
   align-items: center;
+  position: sticky;
+  top: 0;
+}
+.navbarsroll{
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: 8vh;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: black;
 }
 .navlinks {
   display: flex;
@@ -49,43 +60,87 @@
   font-size: 1rem;
   border: 0;
 }
+.header-mobile-view{
+  
+  display: none;
+}
 @media (max-width: 768px) {
   .navBar {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+  
+   
+  }
+  .navbarsroll{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 8vh;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    padding-top: 1rem;
+    height: 10vh;
+    background-color: black;
   }
   .navlinks {
-    flex-direction: column;
-    gap: 5%;
-    width: 100%;
-    font-size: 1.2rem;
+    display: none;
   }
   .logo {
-    font-size: 1.2rem;
+    
+    font-size: 2rem;
     padding-bottom: 0;
   }
   .header-logo {
-    height: auto;
+    height: 5vh;
     width: 80%;
   }
   .header-btn {
-    width: 10%;
-    height: 6vh;
-    font-size: 1.2rem;
+    display: none;
+  
   }
+  .header-mobile-view{
+   
+    width: 70vw;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+  }
+  .hambuger{
+    height: 4vh;
+  }
+  .mobileLinks{
+    background-color: #0f1113;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 5rem;
+    right: 0rem;
+    width: 300px;
+    height: 100%;
+    align-items: flex-start;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    gap: 30px;
+   
+
+    padding-top: 12rem;
+  }
+  
 }
 
 /* Styles for screens smaller than 480px */
 @media (max-width: 480px) {
   .navlinks {
+    display: none;
     font-size: 1rem;
   }
   .logo {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .header-btn {
-    width: 40%;
-    height: 6vh;
-    font-size: 1rem;
+    display: none;
   }
 }

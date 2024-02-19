@@ -6,6 +6,8 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 1rem;
+
+ 
 }
 .main-pge-right {
  
@@ -93,6 +95,7 @@
     margin-left: 0;
   }
   .start-learn-btn {
+    
     height: 6vh;
     font-size: 1rem;
   }

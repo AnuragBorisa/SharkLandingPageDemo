@@ -39,14 +39,18 @@ padding: 3rem;
     padding: 2rem;
   }
   .course-titles {
+    display: flex;
+    align-items: center;
     flex-direction: column;
     padding-left: 0;
     width: 90vw;
-    gap: 2rem;
+    gap: 0rem;
+    justify-content: center;
   }
   .course-tag {
+  
     width: 80vw;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
   .course-tag-para {
     width: 80vw;
@@ -55,8 +59,8 @@ padding: 3rem;
   }
   .course-cards {
     flex-direction: column;
-    width: 90vw;
-    gap: 0.5rem;
+    width: 50vw;
+    gap: 2rem;
   }
 }
 

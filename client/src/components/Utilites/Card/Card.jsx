@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+const coursesandtitles = [{}];
 
 const Card = () => {
   return (

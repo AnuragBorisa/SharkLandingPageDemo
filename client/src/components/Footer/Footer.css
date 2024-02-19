@@ -37,6 +37,7 @@
     gap: 10rem;
 }
 .footer-social{
+    padding-left: 5rem;
     font-size: 1.5rem;
     display: flex;
     justify-content: center;
@@ -48,11 +49,12 @@
     gap: 5rem;
 }
 .footer-copy{
+    
     display: flex;
     justify-content: center;
     align-items: center;
    
-    flex-basis: 50%;
+    flex-basis: 30%;
 }
 .footer-links{
     padding-right: 5rem;
@@ -101,6 +103,7 @@
       height: auto;
       flex-basis: auto;
       gap: 2rem;
+      padding-left: 0rem;
     }
     .footer-copy {
       flex-basis: auto;
@@ -114,9 +117,10 @@
     .footer-links h4 {
       padding-left: 0;
     }
-    .footer-logo {
-      height: auto;
-      width: 80vw;
+    .footer-logo { 
+      margin-left: 8rem;
+      height: 60vh;
+      width: 60vw;
     }
     .footer-logo-div {
       padding-left: 0;
@@ -130,6 +134,9 @@
       gap: 1rem;
     }
     .footer-logo {
-      width: 90vw;
+      margin: 0;
+      width: 70vw;
+      height: 50vh;
+      margin-left: 3.5rem;
     }
   }

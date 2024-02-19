@@ -2,7 +2,9 @@ import React from "react";
 import "./Form.css";
 import axios from "axios";
 import { useRef } from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 const Form = (props) => {
   const formRef = useRef();
   const onSubmitHandler = (event) => {
@@ -38,9 +40,11 @@ const Form = (props) => {
         ref={formRef}
       >
         <div className="formContainer">
-          <div className="form-sign-in">
-            <button>Random Stuff</button>
-          </div>
+          
+        
+            <Link className="form-sign-in"> <FontAwesomeIcon className="whatsapp" icon={faWhatsapp} /></Link>
+         
+         
           <h1 className="sign-up-form">Get Enrolled</h1>
           <div className="form-lables">
             <div className="internal-forms">

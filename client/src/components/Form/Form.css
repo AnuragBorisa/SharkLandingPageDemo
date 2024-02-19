@@ -44,15 +44,18 @@ input:focus {
 }
 
 .form-sign-in {
- 
+  
   align-self: flex-end;
   border: 0;
-  padding: 2rem;
+ 
   border-radius: 10px;
   margin-top: 1rem;
- 
-  padding-top: 3rem;
-  
+  margin-right: 7.8rem;
+
+}
+.whatsapp{
+  width: 3vw;
+  height: 5vh;
 }
 .sign-up-form {
   align-self: flex-start;
@@ -62,25 +65,26 @@ input:focus {
 }
 .form-btm {
   padding: 1rem;
-  width: 70%;
+  width: 72%;
   display: flex;
   flex-wrap: wrap;
   justify-content: end;
   padding-top: 2vw;
+ 
 }
 .form-btm-label {
   flex-basis: 100%;
 }
 .form-btm-p {
   padding: 0;
-
+  margin-right: 10rem;
   flex-basis: 70%;
   font-size: 1rem;
 }
 .form-btm-signup {
   border: 0;
   flex-basis: 30%;
-  margin-top: 1rem;
+  margin-top: -3rem;
   font-family: "Noyh", sans-serif;
   border-radius: 20px;
   color: black;
@@ -91,32 +95,45 @@ input:focus {
 }
 @media (max-width: 768px) {
   .formContainer {
-    width: 90vw;
+    width: 70vw;
     padding-left: 2rem;
   }
   .form-lables {
-    width: 80vw;
+    height: 40vh;
+    width: 65vw;
     gap: 1.5vw;
   }
+  .internal-forms{
+   
+    height: 20vh;
+  }
+  .internal-forms input{
+    padding-top: 1.5rem;
+  }
   .form-sign-in {
-    width: 50vw;
-    height: 6vh;
+    background-color: #4caf50;
     font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+  .whatsapp{
+    height: 6vh;
+    width: 5vw;
   }
   .sign-up-form {
     font-size: 1.5rem;
   }
   .form-btm {
-    width: 30%;
+    width: 65vw;
     padding-top: 1vw;
   }
   .form-btm-p {
-    flex-basis: 50%;
+  
   }
   .form-btm-signup {
-    flex-basis: 50%;
-    height: 6vh;
+    flex-basis: 20%;
+    height: 4vh;
     font-size: 1.2rem;
+    margin-top: -2.5rem;
   }
 }
 
@@ -124,33 +141,36 @@ input:focus {
 @media (max-width: 480px) {
   .formContainer {
     
-    width: 95vw;
+    width: 80vw;
     padding-left: 1rem;
   }
   .form-lables {
     
-    width:85vw;
+    width:70vw;
     gap: 1vw;
   }
   .form-sign-in {
-    width: 70vw;
-    height: 8vh;
-    font-size: 1.4rem;
+    background-color: #4caf50;
+    margin-right: 3rem;
+  }
+  .whatsapp{
+    height: 5vh;
+    width: 8vw;
+    
   }
   .sign-up-form {
     font-size: 1.2rem;
   }
   .form-btm {
-    width: 50%;
+    width: 70vw;
     padding-top: 0.5vw;
   }
   .form-btm-p {
-    flex-basis: 40%;
+   
     font-size: 0.8rem;
   }
   .form-btm-signup {
-    flex-basis: 60%;
-    height: 8vh;
-    font-size: 1.4rem;
+    flex-basis: 40%;
+    margin-top: -2.5rem;
   }
 }

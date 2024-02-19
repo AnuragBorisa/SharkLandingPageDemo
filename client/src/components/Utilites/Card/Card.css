@@ -53,6 +53,7 @@
   .Card {
     height: auto;
     flex-direction: column;
+   
   }
   .card-ctn {
     width: 100%;

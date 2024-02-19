@@ -42,6 +42,7 @@
       flex-direction: column;
     }
     .promises-left {
+    
       flex-basis: auto;
       width: 100vw;
       padding: 2rem;
@@ -51,12 +52,15 @@
       padding: 2rem;
     }
     .promises-heading {
+     padding-left: 2rem;
+     align-self: center;
       width: 80vw;
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
     .promises-para {
       width: 80vw;
       font-size: 0.8rem;
+      align-self: center;
     }
   }
   
@@ -76,7 +80,7 @@
       font-size: 1.8rem;
     }
     .promises-para {
-      width: 90vw;
+      width: 80vw;
       font-size: 0.6rem;
     }
   }
