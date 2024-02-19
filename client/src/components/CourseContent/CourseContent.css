@@ -50,7 +50,8 @@ padding: 3rem;
     justify-content: center;
   }
   .course-tag {
-  
+    align-self: center;
+    padding: 0;
     width: 80vw;
     font-size: 1.8rem;
   }
@@ -68,14 +69,17 @@ padding: 3rem;
 
 /* Styles for screens smaller than 480px */
 @media (max-width: 480px) {
-
+  
   .course-tag {
+   
     width: 80vw;
     font-size: 2rem;
-    margin-left: 1.5rem;
+    margin-left: 1rem;
+   
+    
   }
   .course-tag-para {
-    width: 90vw;
+    width: 80vw;
     font-size: 0.7rem;
     padding-top: 0.2rem;
     padding: 0;
