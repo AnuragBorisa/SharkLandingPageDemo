@@ -71,6 +71,7 @@ background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v170841
 background-color: rgba(12, 9, 9, 0.438); /* Set the desired opacity */
 background-blend-mode: darken; /* Optional: Adjust blend mode */
 
+
 overflow: clip; /* use clip instead of hidden */
 }
 /* *{
