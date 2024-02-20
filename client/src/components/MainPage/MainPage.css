@@ -125,19 +125,21 @@
 /* Styles for screens smaller than 480px */
 @media (max-width: 480px) {
   .main-pge-container {
-   
+  
    
   }
   .main-pge-right {
     align-self: center;
     justify-self: center;
     margin: 0;
-    width: 90vw;
-    
-    
+    width: 80vw;
     flex-basis: auto;
+    padding: 5rem;
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .main-heading {
+   
     font-size: 1.8rem;
   }
   .main-para {
