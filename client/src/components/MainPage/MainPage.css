@@ -7,7 +7,7 @@
   align-items: center;
   
   /* background-image: url("../resourcecs/Images/BG-12new.png"); */
-  background-position: 100% ;
+  
   
   
   
@@ -17,7 +17,7 @@
   color: #0b6cff;
 }
 .main-pge-right {
- 
+  
   height: 80vh;
   display: flex;
   flex-direction: column;
@@ -144,25 +144,22 @@
 @media (max-width: 480px) {
   .main-pge-container {
    padding: 2rem;
+  
    
   }
   .heading {
     
-    padding: 0;
-    margin: 0;
-    margin: 0;
+    
     width: 100%;
   }
   .main-pge-right {
-    
+   
     align-self: center;
     justify-self: center;
-    margin: 0;
+    padding: 0;
     width: 80vw;
     flex-basis: auto;
-    padding-top: 0rem;
-    padding-bottom: 0rem;
-    height: 60vh;
+    height: auto;
   }
   .main-heading {
   
@@ -179,7 +176,7 @@
     font-size: 0.8rem;
   }
   .main-pge-left{
-   
+    height: auto;
     
     margin: 0;
   }
