@@ -5,10 +5,12 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-bottom: 1rem;
- 
-  margin-top: 4rem;
-
+  
+  /* background-image: url("../resourcecs/Images/BG-12new.png"); */
+  background-position: 100% ;
+  
+  
+  
  
 }
 .main-page-title-color{
@@ -16,14 +18,22 @@
 }
 .main-pge-right {
  
- 
+  height: 80vh;
   display: flex;
   flex-direction: column;
   padding: 1rem;
   padding-left: 5rem;
+  justify-content: center;
+  
+   
+  
+ 
+  
+  
   
 }
 .heading {
+  margin-top: -3rem;
   padding: 1%;
  
   width: 90%;
@@ -69,10 +79,10 @@
 }
 
 .main-pge-left {
-  
-  
+ margin-top: 2rem;
+ display: flex;
   margin-right: 2rem;
- 
+ height: 80vh;
   
   
 } 
@@ -81,17 +91,24 @@
 @media (max-width: 768px) {
   .main-pge-container {
     flex-direction: column;
-    margin-top: 1rem;
+    margin-top: -1rem;
+   
+    
    
   }
   .main-pge-right {
+
+    height: 60vh;
     margin: 0;
     padding: 0;
     padding-left: 1rem;
     flex-basis: auto;
+    padding-top: 2rem;
     width: 80vw;
   }
   .heading {
+    
+    margin: 0;
     width: 100%;
   }
   .wel-tag {
@@ -119,6 +136,7 @@
     align-self: center;
     padding-right: 0;
     margin: 0;
+    height: 70vh;
   }
 }
 
@@ -128,6 +146,10 @@
   
    
   }
+  .heading {
+    margin: 0;
+    width: 100%;
+  }
   .main-pge-right {
     align-self: center;
     justify-self: center;
@@ -135,8 +157,9 @@
     width: 80vw;
     flex-basis: auto;
     padding: 5rem;
-    padding-top: 0;
+    padding-top: 2rem;
     padding-bottom: 0;
+    height: 50vh;
   }
   .main-heading {
    

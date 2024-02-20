@@ -1,40 +1,51 @@
+
 const reviews = [
     {
       id: 1,
-      name: 'susan smith',
-      job: 'web developer',
+      name: 'Chirag Trivedi',
+      job: 'Student(Ganpat University)',
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg',
+        "https://res.cloudinary.com/dhuagtzvw/image/upload/v1708412126/images/glsnaxea23eup4qzrino.png",
       text:
-        "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
+        "I attended the top-notch cybersecurity classes in Ahmedabad, where I gained proficiency in Python and cybersecurity. The learning process was simplified, even in online mode.",
     },
     {
       id: 2,
-      name: 'anna johnson',
-      job: 'web designer',
+      name: 'Sakshi Amin',
+      job: 'Student(Ganpat University)',
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883409/person-2_np9x5l.jpg',
+       "https://res.cloudinary.com/dhuagtzvw/image/upload/v1708412125/images/fdzjdk3npwfbqet8xhyt.png",
       text:
-        'Helvetica artisan kinfolk thundercats lumbersexual blue bottle. Disrupt glossier gastropub deep v vice franzen hell of brooklyn twee enamel pin fashion axe.photo booth jean shorts artisan narwhal.',
+        "Initially, it was challenging for me, as a student, to grasp the fundamentals of cybersecurity. However, after joining Shark CyberTech, my skills significantly improved, leading to a notable upgrade in my abilities.",
     },
     {
       id: 3,
-      name: 'peter jones',
-      job: 'intern',
+      name: 'Kushlendra Singh',
+      job: 'Businessman(AttackBox)',
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg',
+        'https://res.cloudinary.com/dhuagtzvw/image/upload/v1708412125/images/ctwxawnkkckvva10twbn.png',
       text:
-        'Sriracha literally flexitarian irony, vape marfa unicorn. Glossier tattooed 8-bit, fixie waistcoat offal activated charcoal slow-carb marfa hell of pabst raclette post-ironic jianbing swag.',
+       "Since joining Shark CyberTech, I have gained practical insights into the industry. Their approach involves presenting real-world scenarios, allowing me to incorporate this valuable experience into my career.",
     },
     {
       id: 4,
-      name: 'bill anderson',
-      job: 'the boss',
+      name: 'Manthan Suthar',
+      job: 'Businessman(iBhavan)',
       image:
-        'https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg',
+        'https://res.cloudinary.com/dhuagtzvw/image/upload/v1708412125/images/sj3ukk7io0pwohlzc6fz.png',
       text:
-        'Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ',
+       "I acquired knowledge in Cybersecurity and VAPT under the guidance of Abhishek Sir, which inspired me to establish my own venture, iBhavan specializing in secure IoT solutions.",
     },
+    {
+      id: 5,
+      name: 'Kushansh Chaurishiya',
+      job: 'SOC Analyst(Adani)',
+      image:
+        'https://res.cloudinary.com/dhuagtzvw/image/upload/v1708412125/images/qnk2z2heak90eqtm0owv.png',
+      text:
+      "The learning experience was excellent, and the lectures conducted by highly qualified instructors were engaging and interactive.",
+    },
+   
   ];
   
   export default reviews;

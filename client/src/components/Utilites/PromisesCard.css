@@ -24,6 +24,12 @@
     flex-direction: column;
     gap: 2rem;
 }
+.promises-t{
+  font-size: 1.5rem;
+}
+.promises-p{
+  font-size: 0.8rem;
+}
 @media (max-width: 768px) {
     .promises-card {
       

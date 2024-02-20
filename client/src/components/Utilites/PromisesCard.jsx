@@ -3,38 +3,38 @@ import "./PromisesCard.css"
 const promisesup = [
   { 
     img: "logo",
-    title: "Merchants",
+    title: "VAPT",
     para: "The fastest way to grow profitably",
   },
   { 
     img: "logo",
-    title: "Merchants",
+    title: "Certified Ethical Hacker",
     para: "The fastest way to grow profitably",
   },
 ];
 const promisesdown = [{
   img: "logo",
-  title: "Merchants",
-  para: "The fastest way to grow profitably",
+  title: "CISA",
+  para: "",
 },
 { 
   img: "logo",
-  title: "Merchants",
+  title: "CISSP",
   para: "The fastest way to grow profitably",
 },]
 
 const promisesupelement = promisesup.map((element,index)=>{
   return <div className="promises-internal" key={index}>
            <img className="" src="" alt="logo"></img>
-           <h1>{element.title}</h1>
-           <p>{element.para}</p>
+           <h1 className="promises-t">{element.title}</h1>
+           <p className="promises-p">{element.para}</p>
            </div>
 }) 
 const promisesdownelement = promisesdown.map((element,index)=>{
   return <div className="promises-internal" key={index}>
            <img className="" src="" alt="logo"></img>
-           <h1>{element.title}</h1>
-           <p>{element.para}</p>
+           <h1 className="promises-t">{element.title}</h1>
+           <p className="promises-p"> {element.para}</p>
            </div>
 }) 
 
