@@ -16,7 +16,7 @@
 }
 .main-pge-right {
  
-  flex-basis: 1;
+ 
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -69,8 +69,9 @@
 }
 
 .main-pge-left {
-  padding-right: 2rem;
-  flex-basis: 1;
+  
+  
+  margin-right: 2rem;
  
   
   
@@ -81,12 +82,14 @@
   .main-pge-container {
     flex-direction: column;
     margin-top: 1rem;
+   
   }
   .main-pge-right {
     margin: 0;
     padding: 0;
     padding-left: 1rem;
     flex-basis: auto;
+    width: 80vw;
   }
   .heading {
     width: 100%;
@@ -111,18 +114,27 @@
     font-size: 1rem;
   }
   .main-pge-left {
+   
     padding-top: 5rem;
     align-self: center;
     padding-right: 0;
+    margin: 0;
   }
 }
 
 /* Styles for screens smaller than 480px */
 @media (max-width: 480px) {
+  .main-pge-container {
+   
+   
+  }
   .main-pge-right {
+    align-self: center;
+    justify-self: center;
     margin: 0;
-    padding: 0;
-    padding-left: 1rem;
+    width: 90vw;
+    
+    
     flex-basis: auto;
   }
   .main-heading {
@@ -137,5 +149,8 @@
   .start-learn-btn {
     height: 5vh;
     font-size: 0.8rem;
+  }
+  .main-pge-left{
+    margin: 0;
   }
 }
