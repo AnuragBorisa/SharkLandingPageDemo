@@ -62,7 +62,14 @@
 .App {
 background-color: #08090a;
 color: #f5f7ff;
-
+/* font-family: "EgGothic"; */
+font-family: "Gilroy";
+background-repeat: round;
+background-size: 500% 200%;
+/* background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708422720/images/fzrkmpmkxixokuk8ykct.png"); */
+background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708419769/images/aafafqmeohpsyo61lmna.png");
+background-color: rgba(12, 9, 9, 0.438); /* Set the desired opacity */
+background-blend-mode: darken; /* Optional: Adjust blend mode */
 
 overflow: clip; /* use clip instead of hidden */
 }
@@ -72,4 +79,9 @@ overflow: clip; /* use clip instead of hidden */
 a {
   color: inherit;
   text-decoration: none;
+}
+@media (max-width: 480px) {
+  .App{
+  background-size: 100% 100%;
+  }
 }

@@ -34,7 +34,7 @@ input[type="text"]:focus,
   border: 0;
   padding-top: 1rem;
   background-color: #d3d3d300;
-
+  color: #f5f7ff;
   width: 100%;
   border-bottom: 2px solid rgb(31, 130, 201);
 }
@@ -102,9 +102,9 @@ width: 15vw;
   justify-self: center;
   font-family: "Noyh", sans-serif;
   border-radius: 20px;
-  color: black;
+  color: #f5f7ff;
   height: 4vh;
-  background-color: #c3e8fe;
+  background-color: #0b6cff;
   margin-left: -1rem;
   font-size: 1rem;
 }
