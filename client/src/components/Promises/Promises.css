@@ -5,8 +5,11 @@
     justify-content: center;
     align-items: center;
     padding: 5rem;
-    padding-top: 0rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
+  
+    
+    
     
 }
 .graident-color{
@@ -14,20 +17,21 @@
 }
 .promises-left{
     
-    flex-basis: 1;
+    
     padding: 5rem;
     display: flex;
     flex-direction: column;
     width: 50vw;
     padding-top: 0;
+    
 }
 .promises-right{
+  
    
-    padding: 5rem;
    
     width: 50vw;
    
-    flex-basis: 1;
+    
 }
 .promises-heading{
    
@@ -52,6 +56,7 @@
     
     }
     .promises-left {
+      
       display: flex;
       flex-direction: column;
       flex-basis: auto;

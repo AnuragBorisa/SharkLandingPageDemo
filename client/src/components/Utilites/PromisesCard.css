@@ -6,10 +6,12 @@
    gap: 2rem;
 }
 .promises-internal{
-    background-color: #f5f7ff;
+ 
     width: 12vw;
     height: 17vh;
-    color: #101315;
+    /* background-color: #f5f7ff; */
+    box-shadow:  0 0 10px #0b6cff; 
+    color:#f5f7ff;
     border-radius: 20px;
     padding: 2rem;
 }

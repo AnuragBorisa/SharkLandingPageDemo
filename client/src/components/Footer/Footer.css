@@ -5,7 +5,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-   
+    background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708515791/images/hqlma6w5pp47b2s9geyw.jpg");
+    background-color: rgba(10, 10, 10, 0.808); 
+background-blend-mode: darken;  
 }
 .footer-right{
    

@@ -1,6 +1,6 @@
 .Card {
   
-  border: solid 2px black;
+  border: solid 2px #f5f7ff;
   border-radius: 30px;
   height: 50vh;
   display: flex;
@@ -8,6 +8,7 @@
   padding-left: 1rem;
   padding-right: 1rem;
   flex-wrap: wrap;
+  
 
 }
 .card-ctn {
