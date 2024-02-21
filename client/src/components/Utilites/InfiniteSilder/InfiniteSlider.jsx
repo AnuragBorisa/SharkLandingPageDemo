@@ -22,13 +22,26 @@ const carouselElements = logos.map((logo, index) => {
    
    </>
   );
+  
+});
+const carouselElementstwo = logos.map((logo, index) => {
+  return (<>
+    <div className="logos-slide" key={index}>
+      <img src={logo.src} alt={logo.alt} className="slider-img"></img>
+      
+    </div>
+   
+   
+   </>
+  );
+  
 });
 const InfiniteSlider = () => {
   return (
     <>
     <div className="logos">
       {carouselElements} 
-      {carouselElements} 
+      {carouselElementstwo} 
     </div>
    
    </>

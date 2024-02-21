@@ -7,9 +7,9 @@ const Acknowlege = () => {
   return (
     <section className="Acknowlege-container">
       <h1 className="ackn-heading">
-        <span className="ack-color">Industry-Leading</span>
+       Industry-Leading
         <br></br>
-        Certification Preparation
+        <span className="ack-color">Certification Preparation</span>
       </h1>
       <p className="ackn-para">
         Explore our on-demand courses developed by seasoned certifeid

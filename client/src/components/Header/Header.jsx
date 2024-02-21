@@ -4,12 +4,17 @@ import "./Header.css";
 import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useEffect } from "react";
+import Form from '../Form/Form'
 
 const Header = () => {
   const [isClicked, setIsClicked] = useState(false);
   const [bgColor, setBgColor] = useState(false);
-
+  const [headerBtnClicked, setIsHeaderBtnClicked] = useState(false);
+  const isHeaderBtnClickedHandler = () => {
+   setIsHeaderBtnClicked(!headerBtnClicked);
+  }
   const isSetBgColor = () => {
     const scrollY = window.pageYOffset;
     if (scrollY > 100) {
@@ -34,16 +39,17 @@ const Header = () => {
       {/* <img src={sharklogo} alt='logo' className='header-logo'></img> */}
 
       <div className="navlinks">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/">About</NavLink>
-        <NavLink to="/">News</NavLink>
-        <NavLink to="/">Contact</NavLink>
+        <NavLink  className="header-links-effects"to="/">Home</NavLink>
+        <NavLink    className="header-links-effects"to="/">About</NavLink>
+        <NavLink   className="header-links-effects" to="/">News</NavLink>
+        <NavLink   className="header-links-effects" to="/">Contact</NavLink>
       </div>
 
-      <button className="header-btn">Get Started </button>
+      <button className="header-btn" onClick={isHeaderBtnClickedHandler}>Get Started </button>
+      {headerBtnClicked && <> <Form className="header-btn-clicked-form"></Form> <FontAwesomeIcon className="close-form" onClick={isHeaderBtnClickedHandler} icon={faXmark} /></>}
       <div className="header-mobile-view">
         <FontAwesomeIcon
-          icon={faBars}
+          icon={isClicked ? faXmark : faBars}
           onClick={isClickedHandler}
           className="hambuger"
         />
@@ -61,7 +67,9 @@ const Header = () => {
             <NavLink className="internal-mobile-links" to="/">
               Contact
             </NavLink>
+          
           </div>
+          
         ) : null}
       </div>
     </nav>

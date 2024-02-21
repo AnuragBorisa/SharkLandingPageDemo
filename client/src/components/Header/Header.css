@@ -37,9 +37,12 @@
   width: 80%;
   justify-content: center;
   font-size: 1.4rem;
-  
-  
 }
+.header-links-effects:hover{
+  text-decoration: underline;
+  color: #0b6cff  ;
+}
+
 .logo {
   border: 0;
   
@@ -68,9 +71,21 @@
   border: 0;
   color: #f5f7ff;
 }
+.header-btn:hover{
+ color: #010202;
+ 
+}
 .header-mobile-view{
   
   display: none;
+}
+.close-form{
+  margin-top: -30rem;
+  font-size: 2rem;
+  margin-left: 10rem;
+}
+.close-form:hover{
+  color: #0b6cff;
 }
 @media (max-width: 768px) {
   .navBar {
@@ -82,6 +97,8 @@
   
    
   }
+
+ 
   .navbarsroll{
     display: grid;
     grid-template-columns: 25% 50% 25%;

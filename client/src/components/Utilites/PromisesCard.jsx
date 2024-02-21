@@ -8,7 +8,7 @@ const promisesup = [
   },
   { 
     img: "logo",
-    title: "Certified Ethical Hacker",
+    title: "CEH",
     para: "The fastest way to grow profitably",
   },
 ];

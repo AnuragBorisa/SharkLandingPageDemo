@@ -1,92 +1,99 @@
 .main-pge-container {
-  
   /* background-image: url("../resourcecs/Images/bg1.jpg"); */
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  
+
   /* background-image: url("../resourcecs/Images/BG-12new.png"); */
-  
-  
-  
-  
- 
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
-.main-page-title-color{
+.main-page-title-color {
   color: #0b6cff;
 }
 .main-pge-right {
-  
   height: 80vh;
   display: flex;
   flex-direction: column;
   padding: 1rem;
   padding-left: 5rem;
   justify-content: center;
-  
-   
-  
- 
-  
-  
-  
 }
 .heading {
-  margin-top: -3rem;
+  /* margin-top: -2rem; */
   padding: 1%;
- 
+
   width: 90%;
   align-self: center;
 }
 .wel-tag {
-  
- 
   font-size: 1rem;
   width: 80%;
-  
 }
 
 .main-heading {
-  
   font-size: 2.2rem;
-  margin-top:-2.5rem;
+  margin-top: -2.5rem;
   width: 100%;
-  
 }
 .main-para {
-    color: rgba(240, 248, 255, 0.582);
+  color: rgba(240, 248, 255, 0.582);
   padding-left: 0.1rem;
   margin-top: -1rem;
-  width: 90%; 
+  width: 90%;
   font-size: 1rem;
   font-family: "Gilroy";
 }
-.main-page-btns{
+.main-page-btns {
   font-family: "Gilroy";
-    padding: 1%;
-    width: 20%;
-    margin-left: 2.3rem; 
+  padding: 1%;
+  width: 20%;
+  margin-left: 2.3rem;
 }
-.start-learn-btn{
-    border-radius: 1px;
-    border: 0;
-    height: 5vh;
-    font-size: 0.8rem;
-    border: 2px solid  #0b6cff;
-    background-color: rgba(240, 248, 255, 0);
-    color: aliceblue;
-    
+.start-learn-btn {
+  border-radius: 1px;
+  border: 0;
+  height: 5vh;
+  font-size: 0.8rem;
+  border: 2px solid #0b6cff;
+  background-color: rgba(240, 248, 255, 0);
+  color: aliceblue;
+}
+.close-form-sign { 
+  
+  z-index: 10;
+ margin-right: 92rem;
+ margin-top: -30rem;
+  font-size: 2rem;
+  
+}
+.close-form-sign:hover{
+  color: #0b6cff;
+}
+@keyframes glow {
+  0% {
+    background-color: #0b6cff; /* start with a yellow background */
+  }
+  50% {
+    background-color: transparent; /* change to a transparent background at the middle of the animation */
+  }
+  100% {
+    background-color: #0b6cff; /* end with a yellow background */
+  }
+}
+.start-learn-btn:hover {
+  background-color: #0b6cff;
+  animation: glow 5s infinite;
 }
 
 .main-pge-left {
- margin-top: 2rem;
- display: flex;
+  
+ 
+  display: flex;
   margin-right: 2rem;
- height: 80vh;
-  
-  
-} 
+  height: 80vh;
+}
 
 /* Styles for screens smaller than 768px */
 @media (max-width: 768px) {
@@ -94,11 +101,9 @@
     flex-direction: column;
     margin-top: -1rem;
    
-    
-   
   }
   .main-pge-right {
-    
+  
     height: 60vh;
     margin: 0;
     padding: 0;
@@ -108,7 +113,6 @@
     width: 80vw;
   }
   .heading {
-    
     margin: 0;
     width: 100%;
   }
@@ -127,7 +131,6 @@
     margin-left: 0;
   }
   .start-learn-btn {
-    
     height: 6vh;
     font-size: 1rem;
   }
@@ -137,24 +140,32 @@
     align-self: center;
     padding-right: 0;
     margin: 0;
-    height: 70vh;
+   
+   
+  }
+  .close-form-sign { 
+     position: absolute;
+     top: 150px;
+     margin: 0;
+     margin-left: 35rem;
+     width: 10vw;
+     
+    
+   }
+   .close-form-sign:hover{
+    color: #0b6cff;
   }
 }
 
 /* Styles for screens smaller than 480px */
 @media (max-width: 480px) {
   .main-pge-container {
-   padding: 2rem;
-  
-   
+    padding: 2rem;
   }
   .heading {
-    
-    
     width: 100%;
   }
   .main-pge-right {
-   
     align-self: center;
     justify-self: center;
     padding: 0;
@@ -163,7 +174,6 @@
     height: auto;
   }
   .main-heading {
-  
     font-size: 1.8rem;
   }
   .main-para {
@@ -176,9 +186,20 @@
     height: 5vh;
     font-size: 0.8rem;
   }
-  .main-pge-left{
+ 
+  .main-pge-left {
     height: auto;
     
     margin: 0;
   }
+  .close-form-sign { 
+   
+   position: absolute;
+    top: 100px;
+    margin: 0;
+    margin-left: 12rem;
+    padding-top: 1rem;
+    width: 10vw;
+  }
+  
 }

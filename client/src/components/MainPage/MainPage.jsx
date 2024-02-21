@@ -1,7 +1,15 @@
 import React from 'react'
+import { useState } from 'react'
 import "./MainPage.css"
 import Form from '../Form/Form'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 const MainPage = () => {
+  const [isClicked,setIsClicked] = useState(false);
+  const isClickedHandler = () => {
+    setIsClicked(!isClicked)
+  }
   return (
    <section className='main-pge-container'>
     <div className='main-pge-right'>
@@ -12,14 +20,18 @@ const MainPage = () => {
      
     </div>
     <div className='main-page-btns'>
-      <button className='start-learn-btn'>Start Learing For Free</button>
+      <button className='start-learn-btn' onClick={isClickedHandler}>Start Learing For Free</button>
+
     </div>
 
     </div>
     <div className='main-pge-left'>
     <Form className="form-pge" />
     </div>
+   
+    {isClicked && <> <Form className="start-lern-form"></Form><FontAwesomeIcon className="close-form-sign" onClick={isClickedHandler} icon={faXmark} /></>}
    </section>
+   
   )
 }
 
