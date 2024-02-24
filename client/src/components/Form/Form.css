@@ -108,7 +108,7 @@ input:focus {
 }
 @media (max-width: 768px) {
   .formContainer {
-    
+    background-color: #090a13;
     padding: 1rem;
   }
   .start-lern-form {
