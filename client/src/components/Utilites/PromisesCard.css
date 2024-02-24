@@ -4,13 +4,14 @@
    display: flex;
    flex-wrap: nowrap;
    gap: 2rem;
+  
 }
 .promises-internal{
- 
+    
     width: 12vw;
     height: 17vh;
     /* background-color: #f5f7ff; */
-    box-shadow:  0 0 10px #0b6cff; 
+    box-shadow:  0 0 15px #0b6cff; 
     color:#f5f7ff;
     border-radius: 20px;
     padding: 2rem;
@@ -27,6 +28,7 @@
     gap: 2rem;
 }
 .promises-t{
+  
   font-size: 1.5rem;
   color: #0b6cff;
 }

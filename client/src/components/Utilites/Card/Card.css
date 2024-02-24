@@ -1,52 +1,53 @@
 .Card {
-  
+  display: grid;
+
   border: solid 2px #f5f7ff;
   border-radius: 30px;
   height: 50vh;
-  display: flex;
-  flex-direction: row;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  flex-wrap: wrap;
-  
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  padding: 1rem;
+ 
 
 }
 .card-ctn {
- 
-  display: flex;
-  flex-direction: column;
+
+display: flex;
+flex-direction: column;
 
  
 }
 .card-ctn-title {
  
-  
+
 }
 .card-ctn-para {
-  
-  font-size: 0.8rem;
-  margin-top: 0rem;
+ 
+ 
+  font-size: 0.8rem; 
 }
 .card-redirect {
-  
-  
-  width: 20vw;
   display: flex;
   flex-direction: row;
-  padding-top: 8rem;
+ 
+  
+  
+  
+ 
 }
 .card-read-more {
   border: 0;
-  background-color: rgba(0, 0, 0, 0);
-  color: antiquewhite;
-  height: 5vh;
-  width: 10vw;
- 
+  background-color: #f5f7ff00;
+  color: #f5f7ff;
+  
+  
+  
   
 }
 .card-img {
-  width: 15vw;
  
+  width: 100%
+   
   
 }
 /* Styles for screens smaller than 768px */

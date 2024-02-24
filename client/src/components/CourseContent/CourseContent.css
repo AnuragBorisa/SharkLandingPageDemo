@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+ 
 }
 .course-titles {
   text-align: center;
@@ -18,6 +18,7 @@
   gap: 10rem;
 }
 .course-tag {
+
   width: 25vw;
   padding: 1rem;
   font-size: 2rem;
@@ -29,9 +30,9 @@
 }
 .course-cards {
  
-padding: 3rem;
-   
-
+  padding: 3rem;
+ 
+  
   display: flex;
   flex-direction: row;
   gap: 1rem;

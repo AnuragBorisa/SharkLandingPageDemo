@@ -4,16 +4,16 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
+  max-width: 100vw;
   /* background-image: url("../resourcecs/Images/BG-12new.png"); */
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+ padding: 2rem;
 }
 .main-page-title-color {
   color: #0b6cff;
 }
 .main-pge-right {
-  height: 80vh;
+  
+  
   display: flex;
   flex-direction: column;
   padding: 1rem;
@@ -63,7 +63,7 @@
 .close-form-sign { 
   
   z-index: 10;
- margin-right: 92rem;
+ margin-right: 85rem;
  margin-top: -30rem;
   font-size: 2rem;
   
@@ -91,8 +91,8 @@
   
  
   display: flex;
-  margin-right: 2rem;
-  height: 80vh;
+  padding: 5rem;
+ 
 }
 
 /* Styles for screens smaller than 768px */
@@ -103,7 +103,7 @@
    
   }
   .main-pge-right {
-  
+   
     height: 60vh;
     margin: 0;
     padding: 0;
@@ -136,11 +136,10 @@
   }
   .main-pge-left {
    
-    padding-top: 5rem;
-    align-self: center;
-    padding-right: 0;
-    margin: 0;
    
+    align-self: center;
+   
+    
    
   }
   .close-form-sign { 
@@ -201,5 +200,9 @@
     padding-top: 1rem;
     width: 10vw;
   }
+  
+}
+/* Styles for screens between 768px and 1440px */
+@media (min-width: 768px) and (max-width: 1440px) {
   
 }

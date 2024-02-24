@@ -42,7 +42,7 @@ const Form = (props) => {
         <div className="formContainer">
           
         
-            <Link className="form-sign-in"> <FontAwesomeIcon className="whatsapp" icon={faWhatsapp} /></Link>
+          <Link className="form-sign-in"> <FontAwesomeIcon className="whatsapp" icon={faWhatsapp} /></Link>
          
          
           <h1 className="sign-up-form">Get Enrolled</h1>
