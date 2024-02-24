@@ -1,6 +1,6 @@
 .formContainer {
   border-radius: 20px;
-  
+ 
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -108,7 +108,8 @@ input:focus {
 }
 @media (max-width: 768px) {
   .formContainer {
-    width: 80vw;
+    
+    padding: 1rem;
   }
   .start-lern-form {
     margin-top: -50rem;
@@ -139,6 +140,8 @@ input:focus {
 /* Styles for screens smaller than 480px */
 @media (max-width: 480px) {
   .formContainer {
+    
+   
   }
   .start-lern-form {
     width: 100%;
@@ -153,7 +156,11 @@ input:focus {
     background-color: #000000;
   }
   .form-lables {
+    
     gap: 2rem;
+  }
+  .internal-forms input {
+    
   }
   .form-sign-in {
   }
