@@ -6,6 +6,7 @@
 .promises-internal {
   width: 12vw;
   height: 17vh;
+  max-height: 120px;
   /* background-color: #f5f7ff; */
   box-shadow: 0 0 15px #0b6cff;
   color: #f5f7ff;

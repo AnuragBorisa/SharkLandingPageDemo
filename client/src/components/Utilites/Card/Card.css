@@ -7,6 +7,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   padding: 1rem;
+  max-height: 500px;
 }
 .card-ctn {
   display: flex;
@@ -34,21 +35,21 @@
 /* 2xl */
 @media (max-width: 1536px) {
   .Card{
-    height: 40vh;
+   
   }
 }
 
 /* xl */
 @media (max-width: 1280px) {
   .Card{
-    height: 40vh;
+    
   }
 }
 
 /* lg */
 @media (max-width: 1024px) {
   .Card{
-    height: 40vh;
+   height: 30vh;
   }
 }
 
