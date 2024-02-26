@@ -1,6 +1,7 @@
 main {
   background-color: yellowgreen;
   min-height: 100vh;
+  max-height: 300px;
   display: grid;
   place-items: center;
   

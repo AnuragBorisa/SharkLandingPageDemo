@@ -57,6 +57,7 @@
 .start-learn-btn {
   border-radius: 1px;
   border: 0;
+  max-height: 40px;
   height: 5vh;
   font-size: 0.8rem;
   border: 2px solid #0b6cff;
