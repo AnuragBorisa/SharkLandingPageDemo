@@ -11,7 +11,11 @@
 }
 
 .navBar {
-  padding-right: 2rem;
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   display: grid;
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 8vh;
@@ -21,6 +25,11 @@
  
 }
 .navbarsroll{
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   display: grid;
   grid-template-columns: 25% 50% 25%;
   grid-template-rows: 8vh;
@@ -87,15 +96,45 @@
 .close-form:hover{
   color: #0b6cff;
 }
+
+
+@media (max-width: 1536px) {
+  .navBar {
+    max-width: 1280px;
+  }
+  .header-btn{
+    width: 40%;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .navBar {
+    max-width: 1024px;
+  }
+  .header-btn{
+    width: 50%;
+  } 
+  .logo {
+    font-size: 1.2rem;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .navBar {
+    max-width: 768px;
+  }
+ 
+}
+/* md */
 @media (max-width: 768px) {
   .navBar {
+    max-width: 640px;
    display: flex;
    flex-direction:row;
    justify-content: center;
    padding: 1rem ;
-   
-  
-   
   }
 
  
@@ -167,10 +206,20 @@
   }
   
 }
-
-/* Styles for screens smaller than 480px */
+/* sm */
+@media (max-width: 640px) {
+  .navBar {
+    max-width: 475px;
+  }
+}
+/* xs */
 @media (max-width: 480px) {
+  .navBar{
+    padding: 0;
+    width: 100%;
+  }
   .navlinks {
+    
     display: none;
     font-size: 1rem;
   }

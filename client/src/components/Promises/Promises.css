@@ -1,117 +1,145 @@
-.promises-container{
-  
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-  
-    
-    
-    
+.promises-container {
+ 
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
-.graident-color{
+.graident-color {
   color: #0b6cff;
 }
-.promises-left{
-    
-    
-    padding: 5rem;
+.promises-left {
+  
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  
+  padding-top: 0;
+}
+.promises-right {
+ 
+}
+.promises-heading {
+  width: 30vw;
+  font-size: 2.5rem;
+  align-items: center;
+}
+.promises-para {
+  margin-top: -1rem;
+  width: 30vw;
+  font-size: 1rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .promises-container {
+    max-width: 1280px;
+  }
+  .promises-left{
+    max-width: 1280px;
+  }
+  .promises-right{
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .promises-container {
+    max-width: 1024px;
+  }
+  .promises-left{
+    max-width: 1280px;
+  }
+  .promises-right{
+    max-width: 1280px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .promises-container {
+    max-width: 768px;
+  }
+  .promises-left{
+    max-width: 1280px;
+  }
+  .promises-right{
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .promises-container {
+    max-width: 640px;
+    padding-top: 2rem;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .promises-left {
     display: flex;
     flex-direction: column;
-    width: 50vw;
-    padding-top: 0;
-    
-}
-.promises-right{
-  
-   
-   
-    width: 50vw;
-   
-    
-}
-.promises-heading{
-   
-    width: 30vw;
-    font-size: 2.5rem;
-    align-items: center;
-   
-    
-}
-.promises-para{
-   
-    margin-top: -1rem;
-    width: 30vw;
-    font-size: 1rem;
-
-}
-@media (max-width: 768px) {
-    .promises-container {
-      padding-top: 2rem;
-      flex-direction: column;
-      justify-content: center;
-    
-    }
-    .promises-left {
-      
-      display: flex;
-      flex-direction: column;
-      flex-basis: auto;
-      width: 100vw;
-      justify-content: center;
-      
-      
-     
-    }
-    .promises-right {
-      padding: 0;
-      width: 100vw;
-     
-     
-    }
-    .promises-heading {
-      text-align: center;
-    
-     align-self: center;
-      width: 80vw;
-      font-size: 2.0rem;
-    }
-    .promises-para {
-      text-align: center;
-      width: 80vw;
-      font-size: 0.8rem;
-      align-self: center;
-    }
+    flex-basis: auto;
+    width: 100vw;
+    justify-content: center;
   }
-  
-  /* Styles for screens smaller than 480px */
-  @media (max-width: 480px) {
-    .promises-left{
-      display: flex;
-      justify-content: center;
-        gap: 1rem;
-        width: 80vw;
-     }
-     .promises-right {
-     
-
-      width: 80vw;
-    
-     }
-    .promises-heading {
-      align-self: center;
-      width: 80vw;
-      font-size: 1.5rem;
-      
-    }
-    .promises-para {
-      text-align: center;
-     
-      align-self: center;
-      width: 90vw;
-      font-size: 0.8rem;
-    }
+  .promises-right {
+    padding: 0;
+    width: 100vw;
   }
+  .promises-heading {
+    text-align: center;
+
+    align-self: center;
+    width: 80vw;
+    font-size: 2rem;
+  }
+  .promises-para {
+    text-align: center;
+    width: 80vw;
+    font-size: 0.8rem;
+    align-self: center;
+  }
+}
+@media (max-width: 640px) {
+  .promises-container {
+    max-width: 475px;
+  }
+}
+/* Styles for screens smaller than 480px */
+@media (max-width: 480px) {
+  .promises-container {
+    padding: 0;
+    
+    width: 100%;
+  }
+  .promises-left {
+    
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 80vw;
+  }
+  .promises-right {
+    width: 80vw;
+  }
+  .promises-heading {
+    align-self: center;
+    width: 80vw;
+    font-size: 1.5rem;
+  }
+  .promises-para {
+    text-align: center;
+
+    align-self: center;
+    width: 90vw;
+    font-size: 0.8rem;
+  }
+}

@@ -1,96 +1,83 @@
-.promises-card{
-  
-   padding: 5rem;
-   display: flex;
-   flex-wrap: nowrap;
-   gap: 2rem;
-  
+.promises-card {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 2rem;
 }
-.promises-internal{
-    
-    width: 12vw;
+.promises-internal {
+  width: 12vw;
+  height: 17vh;
+  /* background-color: #f5f7ff; */
+  box-shadow: 0 0 15px #0b6cff;
+  color: #f5f7ff;
+  border-radius: 20px;
+  padding: 2rem;
+}
+.promises-down {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  gap: 2rem;
+}
+.promises-up {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.promises-t {
+  font-size: 1.5rem;
+  color: #0b6cff;
+}
+.promises-p {
+  font-size: 0.8rem;
+}
+@media (max-width: 768px) {
+  .promises-card {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem;
+    gap: 0rem;
+  }
+  .promises-internal {
+    align-self: center;
+    width: 35vw;
     height: 17vh;
-    /* background-color: #f5f7ff; */
-    box-shadow:  0 0 15px #0b6cff; 
-    color:#f5f7ff;
-    border-radius: 20px;
-    padding: 2rem;
-}
-.promises-down{
+  }
+  .promises-down {
     display: flex;
     flex-direction: column;
     padding-top: 2rem;
     gap: 2rem;
-}
-.promises-up{
+    padding-bottom: 2rem;
+  }
+  .promises-up {
     display: flex;
     flex-direction: column;
+    padding-top: 2rem;
     gap: 2rem;
+    padding-bottom: 2rem;
+  }
 }
-.promises-t{
-  
-  font-size: 1.5rem;
-  color: #0b6cff;
+
+/* Styles for screens smaller than 480px */
+@media (max-width: 480px) {
+  .promises-down {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+  .promises-up {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0rem;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+  .promises-card {
+    display: flex;
+    flex-direction: column;
+
+    gap: 0rem;
+  }
 }
-.promises-p{
-  font-size: 0.8rem;
-}
-@media (max-width: 768px) {
-    .promises-card {
-      
-      display: flex;
-      flex-direction: column;
-      padding: 0rem;
-      gap: 0rem;
-      
-    }
-    .promises-internal {
-      align-self: center;
-      width: 35vw;
-      height: 17vh;
-    
-      
-    }
-    .promises-down{
-      display: flex;
-      flex-direction: column;
-      padding-top: 2rem;
-      gap: 2rem;
-      padding-bottom: 2rem;
-  }
-  .promises-up{
-      display: flex;
-      flex-direction: column;
-      padding-top: 2rem;
-      gap: 2rem;
-      padding-bottom: 2rem;
-  }
-  }
-  
-  /* Styles for screens smaller than 480px */
-  @media (max-width: 480px) {
-    .promises-down{
-      display: flex;
-      flex-direction: column;
-      padding-top: 2rem;
-      gap: 2rem;
-      padding-bottom: 2rem;
-      
-  }
-  .promises-up{
-      display: flex;
-      flex-direction: column;
-      padding-top: 0rem;
-      gap: 2rem;
-      padding-bottom: 2rem;
-  }
-    .promises-card {
-      
-      display: flex;
-      flex-direction: column;
-      
-      gap: 0rem;
-      
-    }
-    
-  }

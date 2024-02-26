@@ -1,80 +1,107 @@
-.Acknowlege-container{
+.Acknowlege-container {
   background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708514358/images/mfnyxn43waua9xb029wj.jpg");
-    padding: 5rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-right: 0;
-    padding-left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  max-width: 1536px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
-.ackn-heading{
-    text-align: center;
-    font-size: 3rem;
-
+.ackn-heading {
+  text-align: center;
+  font-size: 3rem;
 }
-.ack-color{
+.ack-color {
   color: #0b6cff;
 }
-.ackn-para{
-      text-align: center;
-      width: 30vw;
-      font-size: 1rem;
-      margin-top: -2rem;
-  
+.ackn-para {
+  text-align: center;
+  width: 30vw;
+  font-size: 1rem;
+  margin-top: -2rem;
 }
-.ackn-btn{
-    border: 0;
-    border-radius: 10px;
-    width: 10vw;
-    height: 4vh;
-    background-color: #c3e9ff;
+.ackn-btn {
+  border: 0;
+  border-radius: 10px;
+  width: 10vw;
+  height: 4vh;
+  background-color: #c3e9ff;
+}
 
+/* 2xl */
+@media (max-width: 1536px) {
+  .Acknowlege-container {
+    max-width: 1280px;
+  }
 }
+
+/* xl */
+@media (max-width: 1280px) {
+  .Acknowlege-container {
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .Acknowlege-container {
+    max-width: 768px;
+  }
+}
+
 @media (max-width: 768px) {
-    .Acknowlege-container {
-      padding: 2rem;
-      gap: 1rem;
-      text-align: center;
-      padding-bottom: 0;
-    }
-    .ackn-heading {
-      font-size: 2rem;
-    }
-    .ackn-para {
-      width: 80vw;
-      font-size: 0.8rem;
-      margin-top: -1rem;
-    }
-    .ackn-btn {
-      width: 30vw;
-      height: 6vh;
-    }
+  .Acknowlege-container {
+    max-width: 640px;
+    padding: 2rem;
+    gap: 1rem;
+    text-align: center;
+    padding-bottom: 0;
   }
-  
-  /* Styles for screens smaller than 480px */
-  @media (max-width: 480px) {
-    .Acknowlege-container {
-      padding: 2rem;
-      gap: 1rem;
-      text-align: center;
-      padding-bottom: 0;
-    }
-    .ackn-heading {
-      font-size: 1.5rem;
-    }
-    .ackn-para {
-      text-align: center;
-      width: 90vw;
-      font-size: 0.8rem;
-      margin-top: -0.5rem;
-    }
-    .ackn-btn {
-      width: 50vw;
-      height: 5vh;
-      font-size: 0.8rem;
-    }
+  .ackn-heading {
+    font-size: 2rem;
   }
+  .ackn-para {
+    width: 80vw;
+    font-size: 0.8rem;
+    margin-top: -1rem;
+  }
+  .ackn-btn {
+    width: 30vw;
+    height: 6vh;
+  }
+}
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+/* Styles for screens smaller than 480px */
+@media (max-width: 480px) {
+  .Acknowlege-container {
+    width: 100%;
+    padding: 0rem;
+    gap: 1rem;
+    text-align: center;
+    padding-bottom: 0;
+  }
+  .ackn-heading {
+    font-size: 1.5rem;
+  }
+  .ackn-para {
+    text-align: center;
+    width: 90vw;
+    font-size: 0.8rem;
+    margin-top: -0.5rem;
+  }
+  .ackn-btn {
+    width: 50vw;
+    height: 5vh;
+    font-size: 0.8rem;
+  }
+}
