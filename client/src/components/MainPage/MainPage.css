@@ -9,8 +9,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   /* background-image: url("../resourcecs/Images/BG-12new.png"); */
 }
 .main-page-title-color {
@@ -31,13 +31,13 @@
   align-self: center;
 }
 .wel-tag {
-  font-size: 1rem;
-  width: 80%;
+  font-size: 1.5rem;
+  width: 100%;
 }
 
 .main-heading {
   font-size: 2.2rem;
-  margin-top: -2.5rem;
+  margin-top: -1.5rem;
   width: 100%;
 }
 .main-para {
@@ -90,9 +90,13 @@
 }
 
 .main-pge-left {
+  border-radius: 30px;
+  box-shadow: 10px 10px 10px  #002457;
+  
   
   display: flex;
   padding: 5rem;
+
 }
 
 /* 2xl */
@@ -106,7 +110,7 @@
     padding-left: 3rem;
   }
   .main-heading {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .main-para {
     font-size: 0.9rem;
@@ -121,13 +125,19 @@
 @media (max-width: 1280px) {
   .main-pge-container {
     max-width: 1024px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+    
   }
   /* Add some code here to adjust the layout and font sizes for xl screens */
   .main-pge-right {
     padding-left: 2rem;
   }
   .main-heading {
-    font-size: 1.8rem;
+    
+    font-size: 2.2rem;
+  
   }
   .main-para {
     font-size: 0.8rem;
@@ -137,6 +147,7 @@
   }
   .main-pge-left {
     padding: 1rem;
+    
   }
 
 }
