@@ -2,9 +2,13 @@
   display: flex;
   flex-wrap: nowrap;
   gap: 2rem;
+ 
+
 }
 .promises-internal {
+   
   width: 12vw;
+  
   height: 17vh;
   max-height: 120px;
   /* background-color: #f5f7ff; */

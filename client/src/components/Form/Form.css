@@ -67,6 +67,9 @@ input:focus {
   border-radius: 10px;
 }
 .whatsapp {
+  position: fixed;
+  top: 100px;
+  color: #25D366;
   width: 3vw;
   height: 5vh;
 }
