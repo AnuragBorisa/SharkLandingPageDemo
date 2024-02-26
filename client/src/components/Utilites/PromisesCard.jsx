@@ -15,7 +15,7 @@ const promisesup = [
 const promisesdown = [{
   img: "logo",
   title: "CISA",
-  para: "",
+  para: "lorem",
 },
 { 
   img: "logo",

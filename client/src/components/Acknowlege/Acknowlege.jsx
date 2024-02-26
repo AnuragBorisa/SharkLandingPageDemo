@@ -12,9 +12,7 @@ const Acknowlege = () => {
         <span className="ack-color">Certification Preparation</span>
       </h1>
       <p className="ackn-para">
-        Explore our on-demand courses developed by seasoned certifeid
-        cybersecurity practitioners,aligned to the certification exam's key
-        learning objectives.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis culpa deserunt quae dolor. Hic totam asperiores temporibus accusamus error quo, quae, vitae soluta laudantium voluptatem illo, suscipit quaerat ipsam voluptates.
       </p>
       <button className="ackn-btn">Start learning for Free</button>
       <InfiniteSlider className="logos-ctn" />

@@ -18,7 +18,8 @@
 .header-btn-clicked-form {
   display: flex;
   padding-top: 5rem;
-  margin-left: 35rem;
+  
+  margin-left: 28rem;
 }
 .start-lern-form {
   width: 100%;
@@ -67,8 +68,8 @@ input:focus {
   border-radius: 10px;
 }
 .whatsapp {
-  position: fixed;
-  top: 100px;
+ 
+  
   color: #25D366;
   width: 3vw;
   height: 5vh;
