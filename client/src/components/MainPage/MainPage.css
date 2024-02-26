@@ -100,7 +100,7 @@
     
     max-width: 1280px;
   }
-  /* Add some code here to adjust the layout and font sizes for 2xl screens */
+ 
   .main-pge-right {
     padding-left: 3rem;
   }
@@ -111,6 +111,7 @@
     font-size: 0.9rem;
   }
   .main-page-btns {
+    margin-left: 1.5rem;
     width: 25%;
   }
 }
@@ -221,15 +222,17 @@
   }
   /* Add some code here to adjust the layout and font sizes for sm screens */
   .main-pge-right {
-    width: 70vw;
+    width: 90vw;
   }
   .main-heading {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
   .main-para {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   .main-page-btns {
+    
+    
     width: 60%;
   }
   .start-learn-btn {

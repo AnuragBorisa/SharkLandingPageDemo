@@ -105,6 +105,9 @@
   .header-btn{
     width: 40%;
   }
+  .navbarsroll{
+    max-width: 1280px;
+  }
 }
 
 /* xl */
@@ -118,6 +121,9 @@
   .logo {
     font-size: 1.2rem;
   }
+  .navbarsroll{
+    max-width: 1024px;
+  }
 }
 
 /* lg */
@@ -125,7 +131,9 @@
   .navBar {
     max-width: 768px;
   }
- 
+  .navbarsroll{
+    max-width: 768px;
+  }
 }
 /* md */
 @media (max-width: 768px) {

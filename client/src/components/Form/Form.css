@@ -128,8 +128,8 @@ input:focus {
     width: 20vw;
   }
   .form-btm-signup {
- 
-  font-size: 0.8rem;
+  width: 8vw;
+  font-size: 1rem;
   }
 }
 

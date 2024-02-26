@@ -12,6 +12,7 @@
   background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708515791/images/hqlma6w5pp47b2s9geyw.jpg");
   background-color: rgba(10, 10, 10, 0.808);
   background-blend-mode: darken;
+  
 }
 .footer-right {
   height: 40vh;
@@ -59,10 +60,10 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
-
+  margin-top: 5rem;
   justify-content: space-around;
-
-  padding-top: 8rem;
+ 
+ 
 }
 .footer-links h4 {
   padding-left: 1.5rem;
@@ -72,7 +73,7 @@
   width: 10vw;
 }
 .footer-logo-div {
-  padding-top: 7rem;
+  margin-top: 4rem;
   padding-left: 10rem;
 }
 
@@ -87,6 +88,7 @@
 @media (max-width: 1280px) {
   .footer {
     max-width: 1024px;
+   
   }
 }
 

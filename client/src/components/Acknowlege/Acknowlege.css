@@ -46,6 +46,9 @@
   .Acknowlege-container {
     max-width: 1024px;
   }
+  .ackn-btn {
+    width: 20vw;
+  }
 }
 
 /* lg */
@@ -53,6 +56,7 @@
   .Acknowlege-container {
     max-width: 768px;
   }
+ 
 }
 
 @media (max-width: 768px) {
