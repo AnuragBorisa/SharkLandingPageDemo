@@ -72,11 +72,11 @@ background-repeat: round;
 /* background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708422720/images/fzrkmpmkxixokuk8ykct.png"); */
 /* background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708419769/images/aafafqmeohpsyo61lmna.png"); */
 /* background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708501670/images/pxzj8bw6lgtj3ygbkrcd.jpg"); */
-background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708942936/images/vbp5rx1euxtqkkdsm6id.jpg");
+background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708955416/images/fzwgw1bf2ycr6jnkjdrr.jpg");
 /* background-image: linear-gradient(to top, rgba(97, 65, 224, .16), rgba(108, 75, 239, 0) 75%); */
 
-/* background-color: rgba(10, 10, 10, 0.801);  */
-/* background-blend-mode: darken;   */
+background-color: rgba(10, 10, 10, 0.801); 
+background-blend-mode: darken;  
 
 
 overflow: clip; /* use clip instead of hidden */

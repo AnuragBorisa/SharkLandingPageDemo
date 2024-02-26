@@ -51,10 +51,10 @@ input[type="tel"]:focus {
   background-color: #d3d3d300;
   color: #f5f7ff;
   width: 100%;
-  border-bottom: 2px solid rgb(31, 130, 201);
+  border-bottom: 2px solid #0b6cff;
 }
 .internal-forms b {
-  color: #7c9fc9;
+  color: #f5f7ff;
 }
 input:focus {
   outline: none;
@@ -69,7 +69,7 @@ input:focus {
 }
 .whatsapp {
  
-  
+  display: none;
   color: #25D366;
   width: 3vw;
   height: 5vh;
@@ -82,8 +82,8 @@ input:focus {
 }
 .form-btm {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr  ;
+  grid-template-rows: 1fr 1fr 1fr;
   padding-top: 1rem;
 }
 .form-btm-label {
@@ -98,20 +98,22 @@ input:focus {
   grid-row: 2;
   justify-self: center;
   margin-top: 0rem;
-  width: 15vw;
+  font-size: 0.8rem;
+  width: 20vw;
 }
 .form-btm-signup {
-  grid-column: 2;
-  grid-row: 2;
+  grid-column: 1;
+  grid-row: 3;
   border: 0;
 
   justify-self: center;
   font-family: "Noyh", sans-serif;
   border-radius: 20px;
   color: #f5f7ff;
-  width: 5vw;
+  width: 20vw;
+  
   background-color:#0b6cff;
-  height: 70%;
+  
   font-size: 1rem;
 }
 .form-btm-signup:hover {
@@ -129,10 +131,10 @@ input:focus {
     gap: 10px;
   }
   .form-btm-p {
-    width: 20vw;
+   
   }
   .form-btm-signup {
-  width: 8vw;
+  
   font-size: 1rem;
   }
 }
@@ -144,6 +146,7 @@ input:focus {
   }
 
   .form-btm {
+    
     gap: 10px;
   }
 }
@@ -154,10 +157,10 @@ input:focus {
     max-width: 768px;
   }
   .form-btm-p {
-    width: 20vw;
+    
   }
   .form-btm-signup {
-   width: 7vw;
+
   font-size: 1rem;
   }
 }
@@ -175,7 +178,7 @@ input:focus {
 @media (max-width: 768px) {
   .formContainer {
     max-width: 640px;
-    background-color: #090a13;
+   
     padding: 1rem;
   }
   .start-lern-form {
@@ -200,6 +203,7 @@ input:focus {
     width: 60vw;
   }
   .form-btm-signup {
+    justify-self: start;
     width: 20vw;
   }
 }
@@ -211,11 +215,10 @@ input:focus {
 /* Styles for screens smaller than 480px */
 @media (max-width: 480px) {
   .formContainer {
-    padding: 0;
-    padding: 2rem;
+    width: 95%;
+    padding: 0.5rem;
     margin: 0;
-    max-width: 100%;
-    ;
+    
     
   }
   .start-lern-form {
@@ -244,23 +247,29 @@ input:focus {
     font-size: 1.2rem;
   }
   .whatsapp {
+   
     width: 5vw;
     height: 5vh;
   }
   .form-btm {
-   
+   gap: 0px;
   }
   .form-btm-label {
+    
   }
   .form-btm-p {
+    justify-self: start;
     font-size: 0.8rem;
-    width: 50vw;
-    height: 7vh;
+    width: 80vw;
+   
   }
   .form-btm-signup {
+   
+   justify-self: start;
     font-size: 1rem;
-    height: 5vh;
-    width: 30vw;
+    
+    width: 50vw;
     margin-left: 0rem;
+    
   }
 }

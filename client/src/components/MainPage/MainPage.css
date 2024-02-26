@@ -9,8 +9,8 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   /* background-image: url("../resourcecs/Images/BG-12new.png"); */
 }
 .main-page-title-color {
@@ -31,8 +31,8 @@
   align-self: center;
 }
 .wel-tag {
-  font-size: 1.5rem;
-  width: 100%;
+  font-size: 1rem;
+  width: 80%;
 }
 
 .main-heading {
@@ -55,10 +55,12 @@
   margin-left: 2.3rem;
 }
 .start-learn-btn {
+  margin-left: 0.2rem;
   border-radius: 1px;
   border: 0;
   max-height: 40px;
   height: 5vh;
+  width: 15vw;
   font-size: 0.8rem;
   border: 2px solid #0b6cff;
   background-color: rgba(240, 248, 255, 0);
@@ -91,26 +93,24 @@
 
 .main-pge-left {
   border-radius: 30px;
-  box-shadow: 10px 10px 10px  #002457;
-  
-  
+  box-shadow: 0 0 0px 1px #0b6dff56;
+  background-color: #1113140a;
   display: flex;
   padding: 5rem;
-
+  
 }
 
 /* 2xl */
 @media (max-width: 1536px) {
   .main-pge-container {
-    
     max-width: 1280px;
   }
- 
+
   .main-pge-right {
     padding-left: 3rem;
   }
   .main-heading {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .main-para {
     font-size: 0.9rem;
@@ -119,25 +119,24 @@
     margin-left: 1.5rem;
     width: 25%;
   }
+  .main-pge-left {
+    padding: 1rem;
+  }
 }
 
 /* xl */
 @media (max-width: 1280px) {
   .main-pge-container {
     max-width: 1024px;
-    padding-top: 4rem;
-    padding-bottom: 4rem;
-    
-    
+   
   }
+
   /* Add some code here to adjust the layout and font sizes for xl screens */
   .main-pge-right {
     padding-left: 2rem;
   }
   .main-heading {
-    
-    font-size: 2.2rem;
-  
+    font-size: 1.8rem;
   }
   .main-para {
     font-size: 0.8rem;
@@ -149,7 +148,6 @@
     padding: 1rem;
     
   }
-
 }
 
 /* lg */
@@ -168,10 +166,11 @@
     font-size: 0.7rem;
   }
   .main-page-btns {
-    margin-left: 1.2rem; 
+    margin-left: 1.2rem;
     width: 40%;
   }
-
+  .main-pge-left {
+  }
 }
 
 /* md */
@@ -229,7 +228,7 @@
 
 /* sm */
 @media (max-width: 640px) {
-  .main-pge-container{
+  .main-pge-container {
     max-width: 475px;
   }
   /* Add some code here to adjust the layout and font sizes for sm screens */
@@ -243,8 +242,6 @@
     font-size: 1rem;
   }
   .main-page-btns {
-    
-    
     width: 60%;
   }
   .start-learn-btn {
@@ -258,8 +255,8 @@
 /* xs */
 @media (max-width: 480px) {
   .main-pge-container {
+    padding: 0;
     width: 100%;
-    
   }
   .heading {
     width: 100%;
@@ -287,17 +284,9 @@
   }
 
   .main-pge-left {
-    
-    height: auto;
-    
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    width: 100%;
-    padding-left: 0;
-    
+    box-shadow: 0px 0px 0px 0px;
+
    
-   
-    margin: 0;
   }
   .close-form-sign {
     position: absolute;
@@ -308,5 +297,4 @@
     width: 10vw;
   }
   /* Add some code here to adjust the layout and font sizes for xs screens */
-
 }
