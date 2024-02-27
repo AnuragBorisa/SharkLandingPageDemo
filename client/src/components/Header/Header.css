@@ -11,7 +11,7 @@
 }
 
 .navBar {
-  max-width: 1536px;
+ 
   margin-left: auto;
   margin-right: auto;
   padding-left: 0.5rem;
@@ -74,6 +74,7 @@
   border-radius: 20rem;
   width: 30%;
   height: 4vh;
+  max-height: 50px;
   background-color:#0b6cff;
   justify-self: center;
   font-size: 1rem;

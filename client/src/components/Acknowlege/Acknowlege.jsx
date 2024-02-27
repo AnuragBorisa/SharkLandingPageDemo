@@ -12,7 +12,9 @@ const Acknowlege = () => {
         <span className="ack-color">Certification Preparation</span>
       </h1>
       <p className="ackn-para">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis culpa deserunt quae dolor. Hic totam asperiores temporibus accusamus error quo, quae, vitae soluta laudantium voluptatem illo, suscipit quaerat ipsam voluptates.
+      Unlock your potential with our industry-leading certification program. Gain
+expertise, credibility, and opportunities for advancement. Join a community of
+professionals dedicated to excellence. Elevate your career today.
       </p>
       <button className="ackn-btn">Start learning for Free</button>
       <InfiniteSlider className="logos-ctn" />

@@ -41,7 +41,7 @@
   width: 100%;
 }
 .main-para {
-  color: rgba(240, 248, 255, 0.582);
+  color: rgba(240, 248, 255, 0.747);
   padding-left: 0.1rem;
   margin-top: -1rem;
   width: 90%;
@@ -60,7 +60,8 @@
   border: 0;
   max-height: 40px;
   height: 5vh;
-  width: 15vw;
+  width: 20vw;
+  min-width: 300px;
   font-size: 0.8rem;
   border: 2px solid #0b6cff;
   background-color: rgba(240, 248, 255, 0);
@@ -96,7 +97,9 @@
   box-shadow: 0 0 0px 1px #0b6dff56;
   background-color: #1113140a;
   display: flex;
-  padding: 5rem;
+  padding: 2rem;
+  margin-right: 8rem;
+  
   
 }
 
@@ -120,6 +123,7 @@
     width: 25%;
   }
   .main-pge-left {
+    margin: 0;
     padding: 1rem;
   }
 }
@@ -145,6 +149,7 @@
     width: 30%;
   }
   .main-pge-left {
+    margin: 0;
     padding: 1rem;
     
   }
@@ -170,6 +175,7 @@
     width: 40%;
   }
   .main-pge-left {
+    margin: 0;
   }
 }
 
@@ -212,6 +218,7 @@
     font-size: 1rem;
   }
   .main-pge-left {
+    margin: 0;
     align-self: center;
   }
   .close-form-sign {
@@ -279,11 +286,12 @@
     width: 70%;
   }
   .start-learn-btn {
-    height: 5vh;
+    width: 50vw;
     font-size: 0.8rem;
   }
 
   .main-pge-left {
+    margin: 0;
     box-shadow: 0px 0px 0px 0px;
 
    
