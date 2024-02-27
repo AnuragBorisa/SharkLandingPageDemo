@@ -62,7 +62,7 @@
 }
 
 .App {
-  aspect-ratio: 16/9;
+
   padding: 0;
   margin: 0;
   background-color: #000000;
@@ -88,12 +88,12 @@ a {
 }
 @media (max-width: 768px) {
   .App {
-    aspect-ratio: 4/3;
+   
   }
 }
 @media (max-width: 468px) {
   .App {
-    aspect-ratio: 4 / 3;
+   
     /* background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1709024417/images/d7hnjviq9nxquxc8xaw9.jpg"); */
   }
 }
