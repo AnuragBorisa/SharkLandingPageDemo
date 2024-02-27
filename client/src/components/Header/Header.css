@@ -128,7 +128,7 @@
   .close-form{
     margin-top: -30rem;
     font-size: 2rem;
-    margin-left: -5rem;
+    margin-left: 5rem;
   }
 }
 
@@ -139,6 +139,11 @@
   }
   .navbarsroll{
     max-width: 768px;
+  }
+  .close-form{
+    margin-top: -30rem;
+    font-size: 2rem;
+    margin-left: -5rem;
   }
 }
 /* md */
@@ -218,6 +223,7 @@
     color: #f5f7ff;
     border: 2px solid #0b6cff;
   }
+  
   
 }
 /* sm */
