@@ -1,6 +1,6 @@
 .Card {
   display: grid;
-
+  width: 100%;
   border: solid 2px #f5f7ff;
   border-radius: 30px;
   height: 50vh;
@@ -8,6 +8,7 @@
   grid-template-rows: 1fr 1fr;
   padding: 1rem;
   max-height: 300px;
+  max-width: var(--fixed-width);
   /* background: linear-gradient(to bottom, transparent 0%, rgba(235, 11, 11, 0.089) 100%); */
 }
 .card-ctn {
@@ -47,6 +48,7 @@
 /* xl */
 @media (max-width: 1280px) {
   .Card{
+    width: 100%;
     
   }
 }
@@ -55,7 +57,7 @@
 @media (max-width: 1024px) {
   .Card{
     
-   
+  
   }
 }
 
@@ -70,7 +72,7 @@
 
 @media (max-width: 768px) {
   .Card {
-   
+    width: 90%;
     height: auto;
     flex-direction: column;
   }

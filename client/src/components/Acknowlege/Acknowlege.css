@@ -12,6 +12,7 @@
   align-items: center;
   justify-content: center;
   gap: 2rem;
+  max-width: var(--fixed-width);
 }
 .ackn-heading {
   text-align: center;
@@ -23,6 +24,7 @@
 .ackn-para {
   text-align: center;
   width: 30vw;
+  max-width: var(--fixed-width);
   font-size: 1rem;
   margin-top: -2rem;
 }
@@ -31,6 +33,7 @@
   border-radius: 10px;
   width: 10vw;
   height: 4vh;
+  max-height: 70px;
   background-color:#0b6cff;
   color: #f5f7ff;
 }

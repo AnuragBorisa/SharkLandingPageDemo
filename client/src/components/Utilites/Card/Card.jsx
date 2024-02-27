@@ -9,17 +9,17 @@ const coursesandtitles = [
   },
   {
     title: "Mobile Security",
-    Para: "Mobile Security focuses on securing mobile devices and applications against cyber threats. Topics include secure codingpractices, mobile app vulnerabilities, encryption, and secure communication protocols.",
+    Para: "Mobile Security focuses on securing mobile devices and applications against cyber threats. Topics include secure coding practices, mobile app vulnerabilities, encryption, and secure communication protocols.",
     img: "logo",
   },
   {
     title: "Web Security",
-    Para: "Teaches strategies to protect web applications and servers from cyber threats. Topics cover common vulnerabilities like SQL injection and cross-site scripting, along with techniques for secure authentication, encryption, and safeguarding online assets.",
+    Para: "Teaches strategies to protect web applications and servers from cyber threats. Topics cover common vulnerabilities like SQL injection and cross-site scripting, Along with this we also nourish your encryption.",
     img: "logo",
   },
   {
     title: "VAPT",
-    Para: "Teaches strategies to protect web applications and servers from cyber threats. Topics cover common vulnerabilities like SQL injection and cross-site scripting, along with techniques for secure authentication, encryption, and safeguarding online assets",
+    Para: "Teaches strategies to protect web applications and servers from cyber threats. Topics cover common vulnerabilities like SQL injection and cross-site scripting, along with techniques for secure authentication, encryption, and safeguarding online assets.",
     img: "logo",
   },
 ];
@@ -30,7 +30,7 @@ const courseContent = coursesandtitles.map((element,index)=>{
    <div className="card-ctn">
         <h2 className="card-ctn-title">{element.title}</h2>
         <h1 className="card-ctn-para">
-          {element.Para}.{" "}
+          {element.Para}{" "}
         </h1>
       </div>
 
