@@ -1,85 +1,83 @@
 @font-face {
-    font-family: "Toroka";
-    src: local("OPTITomasoBold-Extended"),
-      url("./components/resourcecs/fonts/OPTITomasoBold-Extended.otf") format("opentype");
-  }
-  @font-face {
-    font-family: "Noyh";
-    src: local("Noyh-Regular"),
-      url("./components/resourcecs/fonts/Noyh-Regular.ttf") format("truetype");
-  }
-  @font-face {
-    font-family: "EgGothic";
-    src: local("Engravers' Gothic Regular"),
-      url("./components/resourcecs/fonts/Engravers\'\ Gothic\ Regular.otf") format("opentype");
-  }
-  @font-face {
-    font-family: "Gilroy";
-    src: local("Gilroy-Regular"),
-      url("./components/resourcecs/fonts/Gilroy-Regular.ttf") format("truetype");
-  }
-  :root {
-    /* dark shades of primary color*/
-    --clr-primary-1: hsl(205, 86%, 17%);
-    --clr-primary-2: hsl(205, 77%, 27%);
-    --clr-primary-3: hsl(205, 72%, 37%);
-    --clr-primary-4: hsl(205, 63%, 48%);
-    /* primary/main color */
-    --clr-primary-5: hsl(205, 78%, 60%);
-    /* lighter shades of primary color */
-    --clr-primary-6: hsl(205, 89%, 70%);
-    --clr-primary-7: hsl(205, 90%, 76%);
-    --clr-primary-8: hsl(205, 86%, 81%);
-    --clr-primary-9: hsl(205, 90%, 88%);
-    --clr-primary-10: hsl(205, 100%, 96%);
-    /* darkest grey - used for headings */
-    --clr-grey-1: hsl(209, 61%, 16%);
-    --clr-grey-2: hsl(211, 39%, 23%);
-    --clr-grey-3: hsl(209, 34%, 30%);
-    --clr-grey-4: hsl(209, 28%, 39%);
-    /* grey used for paragraphs */
-    --clr-grey-5: hsl(210, 22%, 49%);
-    --clr-grey-6: hsl(209, 23%, 60%);
-    --clr-grey-7: hsl(211, 27%, 70%);
-    --clr-grey-8: hsl(210, 31%, 80%);
-    --clr-grey-9: hsl(212, 33%, 89%);
-    --clr-grey-10: hsl(210, 36%, 96%);
-    --clr-white: #fff;
-    --clr-red-dark: hsl(360, 67%, 44%);
-    --clr-red-light: hsl(360, 71%, 66%);
-    --clr-green-dark: hsl(125, 67%, 44%);
-    --clr-green-light: hsl(125, 71%, 66%);
-    --clr-black: #222;
-    --transition: all 0.3s linear;
-    --spacing: 0.1rem;
-    --radius: 0.25rem;
-    --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-    --max-width: 1170px;
-    --fixed-width: 620px;
-  }
- 
+  font-family: "Toroka";
+  src: local("OPTITomasoBold-Extended"),
+    url("./components/resourcecs/fonts/OPTITomasoBold-Extended.otf")
+      format("opentype");
+}
+@font-face {
+  font-family: "Noyh";
+  src: local("Noyh-Regular"),
+    url("./components/resourcecs/fonts/Noyh-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "EgGothic";
+  src: local("Engravers' Gothic Regular"),
+    url("./components/resourcecs/fonts/Engravers'\ Gothic\ Regular.otf")
+      format("opentype");
+}
+@font-face {
+  font-family: "Gilroy";
+  src: local("Gilroy-Regular"),
+    url("./components/resourcecs/fonts/Gilroy-Regular.ttf") format("truetype");
+}
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(205, 86%, 17%);
+  --clr-primary-2: hsl(205, 77%, 27%);
+  --clr-primary-3: hsl(205, 72%, 37%);
+  --clr-primary-4: hsl(205, 63%, 48%);
+  /* primary/main color */
+  --clr-primary-5: hsl(205, 78%, 60%);
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(205, 89%, 70%);
+  --clr-primary-7: hsl(205, 90%, 76%);
+  --clr-primary-8: hsl(205, 86%, 81%);
+  --clr-primary-9: hsl(205, 90%, 88%);
+  --clr-primary-10: hsl(205, 100%, 96%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --clr-red-dark: hsl(360, 67%, 44%);
+  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-green-dark: hsl(125, 67%, 44%);
+  --clr-green-light: hsl(125, 71%, 66%);
+  --clr-black: #222;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+
 .App {
+  aspect-ratio: 16/9;
   padding: 0;
   margin: 0;
-background-color: #000000;
-color: #f5f7ff;
-/* font-family: "EgGothic"; */
-font-family: "Gilroy";
-background-repeat: round;
+  background-color: #000000;
+  color: #f5f7ff;
+  /* font-family: "EgGothic"; */
+  font-family: "Gilroy";
+  background-repeat: round;
 
+  /* background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1709017885/images/xuuq4hll8xm7if0gq7v6.jpg"); */
+  /* background-image: linear-gradient(to top, rgba(216, 216, 216, 0.692), rgba(108, 75, 239, 0) 75%); */
 
-/* background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708422720/images/fzrkmpmkxixokuk8ykct.png"); */
-/* background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708419769/images/aafafqmeohpsyo61lmna.png"); */
-/* background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708501670/images/pxzj8bw6lgtj3ygbkrcd.jpg"); */
-background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708942035/images/tuknoovd1aetmumpejz4.jpg");
-/* background-image: linear-gradient(to top, rgba(97, 65, 224, .16), rgba(108, 75, 239, 0) 75%); */
+  background-color: rgba(12, 12, 12, 0.685); 
+  background-blend-mode: darken;  
 
-background-color: rgba(10, 10, 10, 0.63); 
-background-blend-mode: darken;  
-
-
-overflow: clip; /* use clip instead of hidden */
+  overflow: clip; /* use clip instead of hidden */
 }
 /* *{
   outline: 1px solid red;
@@ -88,8 +86,14 @@ a {
   color: inherit;
   text-decoration: none;
 }
-@media (max-width: 480px) {
-  .App{
-  background-size: 100% 100%;
+@media (max-width: 768px) {
+  .App {
+    aspect-ratio: 4/3;
+  }
+}
+@media (max-width: 468px) {
+  .App {
+    aspect-ratio: 4 / 3;
+    background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1709019667/images/lbbjezrkx7n4x891khde.jpg");
   }
 }

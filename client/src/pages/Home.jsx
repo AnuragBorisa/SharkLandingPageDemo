@@ -14,7 +14,6 @@ export const Home = () => {
    <MainPage />
    <CourseContent />
    <Promises />
-  
    <Acknowlege />
    <Testimonials />
    <FooterComponent />
