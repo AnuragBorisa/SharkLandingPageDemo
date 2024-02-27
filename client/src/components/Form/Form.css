@@ -254,7 +254,7 @@ input:focus {
     gap: 2rem;
   }
   .internal-forms input {
-    width: 80%;
+    width: 90%;
   }
   .form-sign-in {
   }
@@ -282,7 +282,7 @@ input:focus {
    
    justify-self: start;
     font-size: 1rem;
-    
+    height: 4vh;
     width: 50vw;
     margin-left: 0rem;
     
