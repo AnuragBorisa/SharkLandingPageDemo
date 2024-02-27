@@ -153,22 +153,37 @@ input:focus {
 
 /* lg */
 @media (max-width: 1024px) {
-  .formContainer  {
+  .formContainer {
     max-width: 768px;
+   
+    padding: 1rem;
+  }
+  .start-lern-form {
+    margin-top: -50rem;
+  }
+  .whatsapp {
+    width: 5vw;
+    height: 5vh;
+  }
+  .form-lables {
+    font-size: 1.5rem;
+  }
+
+  .sign-up-form {
+    font-size: 1.5rem;
+  }
+  .form-btm {
+  }
+  .form-btm-label {
   }
   .form-btm-p {
-    
+    width: 60vw;
   }
   .form-btm-signup {
-
-  font-size: 1rem;
+    justify-self: start;
+    width: 20vw;
   }
 }
-
-/* md */
-
-
-/* sm */
 
 
 
