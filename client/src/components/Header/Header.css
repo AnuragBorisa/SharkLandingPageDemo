@@ -92,7 +92,7 @@
 .close-form{
   margin-top: -30rem;
   font-size: 2rem;
-  margin-left: 8rem;
+  margin-left: 10rem;
 }
 .close-form:hover{
   color: #0b6cff;
@@ -124,6 +124,11 @@
   }
   .navbarsroll{
     max-width: 1024px;
+  }
+  .close-form{
+    margin-top: -30rem;
+    font-size: 2rem;
+    margin-left: -5rem;
   }
 }
 

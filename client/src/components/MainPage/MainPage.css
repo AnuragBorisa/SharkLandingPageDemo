@@ -69,8 +69,12 @@
 }
 .close-form-sign {
   z-index: 10;
-  margin-right: 85rem;
-  margin-top: -30rem;
+ 
+  /* margin-top: -30rem; */
+  align-self: flex-start;
+  margin-right: 40rem;
+  
+  
   font-size: 2rem;
 }
 .close-form-sign:hover {
@@ -126,6 +130,24 @@
     margin: 0;
     padding: 1rem;
   }
+  .close-form-sign {
+    z-index: 10;
+   display: flex;
+
+   flex-direction: column;
+    
+    font-size: 2rem;
+  }
+  .close-form-sign {
+    z-index: 10;
+   
+    /* margin-top: -30rem; */
+    align-self: flex-start;
+    margin-right: 30rem;
+    
+    
+    font-size: 2rem;
+  }
 }
 
 /* xl */
@@ -152,6 +174,16 @@
     margin: 0;
     padding: 1rem;
     
+  }
+  .close-form-sign {
+    z-index: 10;
+   
+    /* margin-top: -30rem; */
+    align-self: flex-start;
+    margin-right: 25rem;
+    
+    
+    font-size: 2rem;
   }
 }
 
@@ -252,7 +284,7 @@
     position: absolute;
     top: 150px;
     margin: 0;
-    margin-left: 35rem;
+    margin-left: 30rem;
     width: 10vw;
   }
   .close-form-sign:hover {
@@ -334,7 +366,7 @@
     position: absolute;
     top: 100px;
     margin: 0;
-    margin-left: 12rem;
+    margin-left: 0  rem;
     padding-top: 1rem;
     width: 10vw;
   }
