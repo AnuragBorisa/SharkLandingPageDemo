@@ -13,9 +13,6 @@ const CourseContent = () => {
     </div>
     <div className='course-cards'>
         <Card />
-        <Card />
-        <Card />
-        <Card />
     </div>
    </section>
   )
