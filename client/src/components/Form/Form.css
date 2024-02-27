@@ -254,7 +254,7 @@ input:focus {
     gap: 2rem;
   }
   .internal-forms input {
-    
+    width: 80%;
   }
   .form-sign-in {
   }

@@ -62,6 +62,31 @@
   .course-ctn {
     max-width: 768px;
   }
+  .course-titles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 0;
+    width: 90vw;
+    gap: 0rem;
+    justify-content: center;
+  }
+  .course-tag {
+    align-self: center;
+    padding: 0;
+    width: 80vw;
+    font-size: 1.8rem;
+  }
+  .course-tag-para {
+    width: 80vw;
+    font-size: 0.8rem;
+    padding-top: 0.5rem;
+  }
+  .course-cards {
+    flex-direction: column;
+    width: 50vw;
+    gap: 2rem;
+  }
 }
 
 

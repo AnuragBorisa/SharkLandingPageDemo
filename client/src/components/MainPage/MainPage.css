@@ -160,14 +160,14 @@
   .main-pge-container {
     max-width: 768px;
    
-    padding: 0;
+    padding: 2rem;
     
   
     flex-direction: column;
    
   }
   .main-pge-right {
-    width: 70vw;
+    width: 60vw;
     padding: 2rem;
   }
   .heading {
