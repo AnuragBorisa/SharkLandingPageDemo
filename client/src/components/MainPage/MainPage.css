@@ -200,8 +200,10 @@
    
   }
   .main-pge-right {
-    width: 65vw;
+
+    width: 60vw;
     padding: 2rem;
+    padding-left: 10rem;
   }
   .heading {
     margin: 0;
