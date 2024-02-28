@@ -37,11 +37,17 @@
  
   padding: 3rem;
   
-  
+   
   display: flex;
   flex-direction: row;
   gap: 1rem;
 }
+
+
+
+
+
+
 
 
 /* 2xl */
@@ -54,7 +60,17 @@
 /* xl */
 @media (max-width: 1280px) {
   .course-ctn  {
+    
     max-width: 1024px;
+  }
+  .course-cards {
+    
+    padding: 1rem;
+    
+    
+    
+    
+   
   }
 }
 
@@ -86,7 +102,7 @@
   }
   .course-cards {
     flex-direction: column;
-    width: 50vw;
+    width: 30vw;
     gap: 2rem;
   }
 }

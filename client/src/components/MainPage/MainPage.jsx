@@ -13,15 +13,15 @@ const MainPage = () => {
   return (
     <section className="main-pge-container">
       <div className="main-pge-right">
-        <div className="heading">
-          <div className="wel-tag">
-            <h2 className="test">
+        <div className="heading ">
+          <div className="wel-tag ">
+            <h2 className="test reveal-text">
               Welcome to{" "}
-              <span className="main-page-title-color">Shark Cybertech</span>
+              <span className="main-page-title-color reveal-text " >Shark Cybertech</span>
             </h2>
           </div>
-          <div className="main-heading">
-            <h1>
+          <div className="main-heading ">
+            <h1 >
               Empowering Tomorrow's{" "}
               <span className="main-page-title-color">
                 {" "}
@@ -29,7 +29,8 @@ const MainPage = () => {
               </span>
             </h1>
           </div>
-          <div className="main-para">
+          
+          <div className="main-para ">
             {" "}
             <p>
               Are you ready to become a cyber guardian? Join us at Shark
@@ -42,7 +43,7 @@ const MainPage = () => {
           </div>
         </div>
         <div className="main-page-btns">
-          <button className="start-learn-btn" onClick={isClickedHandler}>
+          <button className="start-learn-btn reveal-text" onClick={isClickedHandler}>
             Start Learing For Free
           </button>
         </div>

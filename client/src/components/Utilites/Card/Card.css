@@ -4,13 +4,30 @@
   border: solid 2px #f5f7ff;
   border-radius: 30px;
   height: 50vh;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   padding: 1rem;
+  perspective: 1000px; /* this creates the 3D effect */
+  cursor:pointer;
   max-height: 300px;
   max-width: var(--fixed-width);
+  transition: transform 0.5s; /* this creates the smooth animation */
+
   /* background: linear-gradient(to bottom, transparent 0%, rgba(235, 11, 11, 0.089) 100%); */
 }
+.Card:hover {
+  transform:  translateY(-30px);
+
+  /* transform: perspective(600px) rotate3d(0.6, 0.05, 0.2, 0deg); */
+
+  /* transform: perspective(1000px) rotate3d(1, 0.01, 0.01, -20deg); */
+}
+/* .Card:hover{
+  transform: translateY(-100px);
+} */
+
+/* this will move the card out of the screen on hover */
+
 .card-ctn {
   /* width: 20vw; */
   display: flex;
@@ -19,10 +36,20 @@
 .card-ctn-title {
 }
 .card-ctn-para {
-  
+  filter: blur(10px); /* Initial blur */
+  transition: filter 0.3s ease-in-out; /* Transition for blur */
+  background: linear-gradient(-90deg, rgba(255,0,0,0.4), rgba(255,255,0,0.4), rgba(0,255,0,0.4), rgba(0,0,255,0.4), rgba(255,0,0,0.4)); /* Color gradient for animation */
+  background-size: 400%; /* Repeat gradient for animation */
+  animation: colorFlow 2s infinite linear; /* Apply animation */
  
-  
   font-size: 0.8em;
+}
+@keyframes colorFlow {
+  from { background-position: 0 0; }
+  to { background-position: 100% 0; }
+}
+.card-ctn-para:hover {
+  filter: blur(0); /* Remove blur on hover */
 }
 .card-redirect {
   display: flex;
@@ -32,43 +59,39 @@
   border: 0;
   background-color: #f5f7ff00;
   color: #f5f7ff;
+  font-size: 2rem;
+  z-index: 1;
 }
 .card-img {
   width: 100%;
 }
 
-
 /* 2xl */
 @media (max-width: 1536px) {
-  .Card{
-   
+  .Card {
   }
 }
 
 /* xl */
 @media (max-width: 1280px) {
-  .Card{
+  .Card {
     width: 100%;
-    
+  }
+  .card-ctn {
   }
 }
 
 /* lg */
 @media (max-width: 1024px) {
-  .Card{
-    
-  
+  .Card {
   }
 }
 
 /* md */
 
-
 /* sm */
 
-
 /* xs */
-
 
 @media (max-width: 768px) {
   .Card {
