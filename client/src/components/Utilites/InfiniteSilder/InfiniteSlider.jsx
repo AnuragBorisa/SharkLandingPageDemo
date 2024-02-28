@@ -1,16 +1,12 @@
 import React from "react";
-import logone from "./Resources/Logos/American-Airlines-PNG-Photo.png";
-import logotwo from "./Resources/Logos/kindpng_2735331.png";
-import logothree from "./Resources/Logos/logo-virgin (1).png";
-import logofour from "./Resources/Logos/PngItem_1320262.png";
 import "./InfiniteSlider.css";
 
 const logos = [
-  { id: 1, src: logone, alt: "Logo 1" },
-  { id: 1, src: logotwo, alt: "Logo 1" },
-  { id: 1, src: logothree, alt: "Logo 1" },
-  { id: 1, src: logofour, alt: "Logo 1" },
-  { id: 1, src: logothree, alt: "Logo 1" },
+  { id: 1, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709124661/images/snxxgrf3nhhumrq81ugg.png", alt: "Logo 1" },
+  { id: 1, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709124661/images/kxyeyl0cwpf1wzuzzpw4.png", alt: "Logo 1" },
+  { id: 1, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709124660/images/cuykliw34tgoarns2ypv.png", alt: "Logo 1" },
+  { id: 1, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709124660/images/d1afeljrjhjwixsz38h8.png", alt: "Logo 1" },
+  { id: 1, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709124660/images/nyk4ejmi6i8vcfc9qaxu.png", alt: "Logo 1" },
 ];
 const carouselElements = logos.map((logo, index) => {
   return (<>

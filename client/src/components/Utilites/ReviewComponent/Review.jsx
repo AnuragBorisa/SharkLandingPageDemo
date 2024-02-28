@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import people from "./Resources/data";
 import { FaChevronLeft, FaChevronRight, FaQuoteRight } from "react-icons/fa";
+import RevealHeading from "../RevealHeading/RevealHeading";
 import "./Review.css"
 const Review = () => {
   const [index, setIndex] = useState(0);
@@ -57,9 +58,9 @@ const Review = () => {
           <FaQuoteRight />
         </span>
       </div>
-      <h4 className="author">{name}</h4>
-      <p className="job">{job}</p>
-      <p className="info">{text}</p>
+     <RevealHeading> <h4 className="author">{name}</h4> </RevealHeading>
+     <RevealHeading>  <p className="job">{job}</p> </RevealHeading>
+     <RevealHeading>   <p className="info">{text}</p> </RevealHeading>
       <div className="button-container">
         <button className="prev-btn" onClick={prevPerson}>
           <FaChevronLeft />

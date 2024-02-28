@@ -1,21 +1,22 @@
 import React from "react";
 import "./Promises.css";
 import PromisesCard from "../Utilites/PromisesCard";
-
+import RevealHeading from "../Utilites/RevealHeading/RevealHeading";
 const Promises = () => {
   return (
     <section className="promises-container">
       <div className="promises-left">
-        <h1 className="promises-heading">
+       <RevealHeading> <h1 className="promises-heading">
           Unleashing Accessibility In{" "}
           <span className="graident-color"> Cybersecurity Education</span>
-        </h1>
+        </h1> </RevealHeading>
         <p className="promises-para">
-          Discover the power of accessibility in cybersecurity education. Our
+          <RevealHeading>Discover the power of accessibility in cybersecurity education. Our
           program breaks barriers, providing inclusive learning experiences for
           all. Empowerment through knowledge awaits. Join us in shaping a more
-          inclusive future in cybersecurity.
+          inclusive future in cybersecurity. </RevealHeading>
         </p>
+    
       </div>
       <div className="promises-right">
         <PromisesCard className="promises-card" />

@@ -20,6 +20,7 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
   /* background-image: url("../resourcecs/Images/BG-12new.png"); */
+ 
 }
 .main-page-title-color {
   color: #0b6cff;
@@ -41,6 +42,8 @@
 .wel-tag {
   font-size: 1rem;
   width: 80%;
+  opacity: 0; /* Initial opacity (invisible) */
+  animation: reveal 2s ease-in-out forwards; /* Smooth reveal animation */
 }
 
 .main-heading {
@@ -92,6 +95,8 @@
   border: 2px solid #0b6cff;
   background-color: rgba(240, 248, 255, 0);
   color: aliceblue;
+  opacity: 1; /* Initial opacity (invisible) */
+  animation: reveal 1s ease-in-out forwards; /* Smooth reveal animation */
 }
 .close-form-sign {
   z-index: 10;

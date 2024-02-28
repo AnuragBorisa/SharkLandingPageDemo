@@ -23,6 +23,7 @@
   position: sticky;
   top: 0;
  
+ 
 }
 .navbarsroll{
   max-width: 1536px;
@@ -37,6 +38,7 @@
   position: sticky;
   top: 0;
   background-color: black;
+  z-index: 1000000;
 }
 .navlinks {
   display: flex;

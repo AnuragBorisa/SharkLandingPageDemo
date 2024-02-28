@@ -15,9 +15,9 @@ const MainPage = () => {
       <div className="main-pge-right">
         <div className="heading ">
           <div className="wel-tag ">
-            <h2 className="test reveal-text">
+            <h2 className="test ">
               Welcome to{" "}
-              <span className="main-page-title-color reveal-text " >Shark Cybertech</span>
+              <span className="main-page-title-color  " >Shark Cybertech</span>
             </h2>
           </div>
           <div className="main-heading ">
