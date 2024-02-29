@@ -6,15 +6,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useEffect } from "react";
-import Form from '../Form/Form'
+import Form from "../Form/Form";
 import LeftToRight from "../Utilites/Animations/LeftToRight";
 const Header = () => {
   const [isClicked, setIsClicked] = useState(false);
   const [bgColor, setBgColor] = useState(false);
   const [headerBtnClicked, setIsHeaderBtnClicked] = useState(false);
   const isHeaderBtnClickedHandler = () => {
-   setIsHeaderBtnClicked(!headerBtnClicked);
-  }
+    setIsHeaderBtnClicked(!headerBtnClicked);
+  };
   const isSetBgColor = () => {
     const scrollY = window.pageYOffset;
     if (scrollY > 100) {
@@ -34,20 +34,39 @@ const Header = () => {
     };
   }, []);
   return (
-    
     <nav className={bgColor ? "navbarsroll" : "navBar"}>
       <h1 className="logo">SHARK!!</h1>
       {/* <img src={sharklogo} alt='logo' className='header-logo'></img> */}
 
       <div className="navlinks">
-        <NavLink  className="header-links-effects"to="/">Home</NavLink>
-        <NavLink    className="header-links-effects"to="/">About</NavLink>
-        <NavLink   className="header-links-effects" to="/">News</NavLink>
-        <NavLink   className="header-links-effects" to="/">Contact</NavLink>
+        <NavLink className="header-links-effects" to="/">
+          Home
+        </NavLink>
+        <NavLink className="header-links-effects" to="/">
+          About
+        </NavLink>
+        <NavLink className="header-links-effects" to="/">
+          News
+        </NavLink>
+        <NavLink className="header-links-effects" to="/">
+          Contact
+        </NavLink>
       </div>
 
-      <button className="header-btn" onClick={isHeaderBtnClickedHandler}>Get Started </button>
-      {headerBtnClicked && <> <Form className="header-btn-clicked-form"></Form> <FontAwesomeIcon className="close-form" onClick={isHeaderBtnClickedHandler} icon={faXmark} /></>}
+      <button className="header-btn" onClick={isHeaderBtnClickedHandler}>
+        Get Started{" "}
+      </button>
+      {headerBtnClicked && (
+        <>
+          {" "}
+          <Form className="header-btn-clicked-form"></Form>{" "}
+          <FontAwesomeIcon
+            className="close-form"
+            onClick={isHeaderBtnClickedHandler}
+            icon={faXmark}
+          />
+        </>
+      )}
       <div className="header-mobile-view">
         <FontAwesomeIcon
           icon={isClicked ? faXmark : faBars}
@@ -57,24 +76,21 @@ const Header = () => {
         {isClicked ? (
           <div className="mobileLinks">
             <NavLink className="internal-mobile-links" to="/">
-              Home
+              <LeftToRight> Home </LeftToRight>
             </NavLink>
             <NavLink className="internal-mobile-links" to="/">
-              About
+            <LeftToRight >   About </LeftToRight>
             </NavLink>
             <NavLink className="internal-mobile-links" to="/">
-              News
+            <LeftToRight >    News </LeftToRight>
             </NavLink>
             <NavLink className="internal-mobile-links" to="/">
-              Contact
+            <LeftToRight >     Contact </LeftToRight> 
             </NavLink>
-          
           </div>
-          
         ) : null}
       </div>
     </nav>
-  
   );
 };
 

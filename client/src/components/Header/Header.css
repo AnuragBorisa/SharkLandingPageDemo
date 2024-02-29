@@ -24,7 +24,7 @@
   top: 0;
   opacity: 1; /* Initial opacity (invisible) */
   animation: reveal 1s ease-in-out forwards; /* Smooth reveal animation */
- 
+  z-index: 1;
 }
 @keyframes reveal {
   from { opacity: 0; }
@@ -53,6 +53,7 @@
   width: 80%;
   justify-content: center;
   font-size: 1.4rem;
+  
 }
 .header-links-effects:hover{
   text-decoration: underline;
@@ -198,7 +199,7 @@
   .header-mobile-view{
    
     width: 70vw;
-   
+    
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -228,7 +229,7 @@
     padding-left: 2rem;
     font-size: 1.5rem;
     gap: 50px;
-   
+     
 
     padding-top: 10rem;
   }
@@ -237,6 +238,7 @@
     width: 100%;
     color: #f5f7ff;
     border: 2px solid #0b6cff;
+    z-index: -1;
   }
   
   
