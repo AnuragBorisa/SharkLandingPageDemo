@@ -192,8 +192,9 @@ input:focus {
 @media (max-width: 1024px) {
   .formContainer {
     max-width: 768px;
-   
+    width: 30vw;
     padding: 1rem;
+    
   }
   .start-lern-form {
     margin-top: -50rem;
@@ -214,7 +215,7 @@ input:focus {
   .form-btm-label {
   }
   .form-btm-p {
-    width: 60vw;
+    width: 30vw;
   }
   .form-btm-signup {
     justify-self: start;
@@ -243,7 +244,7 @@ input:focus {
 @media (max-width: 768px) {
   .formContainer {
     max-width: 640px;
-   
+    width: auto;
     padding: 1rem;
   }
   .start-lern-form {

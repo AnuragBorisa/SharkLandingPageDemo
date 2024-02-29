@@ -97,8 +97,10 @@
     gap: 1rem;
     text-align: center;
     padding-bottom: 0;
+  
   }
   .ackn-heading {
+    
     font-size: 1.5rem;
   }
   .ackn-para {
@@ -109,7 +111,7 @@
   }
   .ackn-btn {
     width: 50vw;
-    height: 5vh;
+    height: 4vh;
     font-size: 0.8rem;
   }
 }

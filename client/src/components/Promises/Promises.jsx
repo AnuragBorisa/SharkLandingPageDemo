@@ -6,10 +6,10 @@ const Promises = () => {
   return (
     <section className="promises-container">
       <div className="promises-left">
-       <RevealHeading> <h1 className="promises-heading">
-          Unleashing Accessibility In{" "}
-          <span className="graident-color"> Cybersecurity Education</span>
-        </h1> </RevealHeading>
+     <h1 className="promises-heading">
+     <RevealHeading> Unleashing Accessibility In{" "}
+          <span className="graident-color"> Cybersecurity Education</span></RevealHeading>
+        </h1> 
         <p className="promises-para">
           <RevealHeading>Discover the power of accessibility in cybersecurity education. Our
           program breaks barriers, providing inclusive learning experiences for

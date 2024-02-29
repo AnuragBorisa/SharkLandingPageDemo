@@ -10,17 +10,18 @@ const CourseContent = () => {
   return (
     <section className="course-ctn" >
       <div className="course-titles">
-      <RevealHeading><h1 className="course-tag"> Professional courses on creating websites 
-</h1></RevealHeading>
+     <h1 className="course-tag">  <RevealHeading>Professional courses on creating websites </RevealHeading>
+</h1>
                     
 
-<RevealHeading> <p className="course-tag-para">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+ <p className="course-tag-para">
+ <RevealHeading>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
           nesciunt facere cupiditate aperiam temporibus expedita praesentium
           inventore perspiciatis porro? Beatae corrupti exercitationem suscipit
           ipsum nihil quis facere labore ratione odit.
+          </RevealHeading> 
         </p>
-        </RevealHeading> 
+      
       </div>
       <div className="course-cards">
         <Card />

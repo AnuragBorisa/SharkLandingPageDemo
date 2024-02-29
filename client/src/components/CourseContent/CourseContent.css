@@ -101,6 +101,8 @@
     padding-top: 0.5rem;
   }
   .course-cards {
+    margin: 0;
+    padding: 1rem;
     flex-direction: column;
     width: 30vw;
     gap: 2rem;
@@ -114,6 +116,8 @@
     max-width: 640px;
     padding: 2rem;
     padding-top: 0;
+    
+  
   }
   .course-titles {
     display: flex;
@@ -169,7 +173,9 @@
    
   }
   .course-cards {
+    align-items: center;
    
+  
     width: 70vw;
   }
 }

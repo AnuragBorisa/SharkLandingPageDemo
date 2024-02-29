@@ -84,6 +84,7 @@
 /* lg */
 @media (max-width: 1024px) {
   .Card {
+    padding: 0;
   }
 }
 
@@ -118,6 +119,9 @@
 
 /* Styles for screens smaller than 480px */
 @media (max-width: 480px) {
+  .Card {
+    
+  }
   .card-ctn-para {
     font-size: 0.6rem;
   }

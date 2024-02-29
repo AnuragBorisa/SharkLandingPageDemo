@@ -109,6 +109,9 @@
    
     margin: 0;
   }
+  .footer-logo-div{
+    padding-left: 9rem;
+  }
 }
 
 /* md */
