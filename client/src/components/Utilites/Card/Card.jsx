@@ -6,7 +6,7 @@ const coursesandtitles = [
   {
     title: "VAPT",
     Para: "Equips learners with skills toidentify,assess,and mitigate cybersecurity risks in systems. Topics include reconnaissance,exploitation, and reporting, preparing individuals for roles in cybersecurity defense and analysis.",
-    img: "logo",
+    img: "",
   },
   {
     title: "Mobile Security",
@@ -33,7 +33,7 @@ const courseContent = coursesandtitles.map((element,index)=>{
 
       <div className="card-redirect">
         <button className="card-read-more"><FontAwesomeIcon icon={faArrowRight} /></button>
-        <img className="card-img" src="" alt={element.img}></img>
+        <img className="card-img" src={element.img} alt={element.img}></img>
       </div>
       </div>
  </>

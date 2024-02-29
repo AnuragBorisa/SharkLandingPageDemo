@@ -9,8 +9,10 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import sharklogo from "../resourcecs/Images/Shar_Logo-01 (1).png"
+import RevealHeading from "../Utilites/RevealHeading/RevealHeading";
 const FooterComponent = () => {
   return (
+    <RevealHeading>
     <footer className="footer">
       <div className="footer-left">
         <div className="footer-logo-div">
@@ -79,6 +81,7 @@ const FooterComponent = () => {
         </div>
       </div>
     </footer>
+    </RevealHeading>
   );
 };
 

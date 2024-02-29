@@ -15,10 +15,7 @@
 
   /* box-shadow: 0 0 10px 10px #0b6cff; */
 }
-.formContainer:hover{
- 
 
-}
 .header-btn-clicked-form {
   display: flex;
   
@@ -194,6 +191,7 @@ input:focus {
     max-width: 768px;
     width: 30vw;
     padding: 1rem;
+    
     
   }
   .start-lern-form {

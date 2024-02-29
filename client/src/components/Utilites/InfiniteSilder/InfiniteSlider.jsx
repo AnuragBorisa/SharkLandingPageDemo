@@ -2,36 +2,34 @@ import React from "react";
 import "./InfiniteSlider.css";
 
 const logos = [
-  { id: 1, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709124661/images/snxxgrf3nhhumrq81ugg.png", alt: "Logo 1" },
-  { id: 1, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709124661/images/kxyeyl0cwpf1wzuzzpw4.png", alt: "Logo 1" },
-  { id: 1, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709124660/images/cuykliw34tgoarns2ypv.png", alt: "Logo 1" },
-  { id: 1, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709124660/images/d1afeljrjhjwixsz38h8.png", alt: "Logo 1" },
-  { id: 1, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709124660/images/nyk4ejmi6i8vcfc9qaxu.png", alt: "Logo 1" },
+  { id: 1, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/vawyva0ibnfnwkigngsb.png", alt: "Logo 1" },
+  { id: 2, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/uigiurcab48n5tpiii9f.png", alt: "Logo 1" },
+  { id: 3, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188702/images/ilzbpzngnpdchyab7idn.png", alt: "Logo 1" },
+  { id: 4, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188703/images/cufioqvg1jmuknnyycdu.png", alt: "Logo 1" },
+  { id: 5, src: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709188762/images/k2qpmgzdfh4xu430jw9c.png", alt: "Logo 1" },
 ];
+
 const carouselElements = logos.map((logo, index) => {
-  return (<>
-    <div className="logos-slide" key={index}>
-      <img src={logo.src} alt={logo.alt} className="slider-img"></img>
-      
-    </div>
-   
-   
-   </>
+  return (
+    <>
+      <div className="logos-slide" key={index}>
+        <img src={logo.src} alt={logo.alt} className="slider-img" />
+      </div>
+    </>
   );
-  
 });
+
+const repeatedLogos = [...carouselElements, ...carouselElements];
 
 const InfiniteSlider = () => {
   return (
     <>
-    <div className="logos">
-      {carouselElements} 
-      {carouselElements} 
-     
-    </div>
-   
-   </>
+      <div className="logos">
+        {repeatedLogos}
+      </div>
+    </>
   );
 };
+
 
 export default InfiniteSlider;

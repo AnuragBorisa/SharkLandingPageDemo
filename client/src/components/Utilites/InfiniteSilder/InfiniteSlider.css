@@ -3,17 +3,20 @@
     transform: translateX(0);
   }
   to {
-    transform: translateX(-100%);
+    transform: translateX(-200%); /* Move beyond the container width */
+  }
+  
+  /* Additional keyframe at 100% to transition back smoothly */
+  100% {
+    transform: translateX(-800%); 
   }
 }
 
 .logos {
-
   overflow: hidden;
   padding: 3rem 0;
   width: 70vw;
   max-width: 1536px;
-  
 
   white-space: nowrap;
   position: relative;
@@ -31,7 +34,7 @@
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(0, 0, 0, 0),#00000000);
+  background: linear-gradient(to left, rgba(0, 0, 0, 0), #00000000);
 }
 
 .logos:after {
@@ -44,9 +47,8 @@
 }
 
 .logos-slide {
-  
   display: inline-block;
-  animation: 30s slide infinite linear;
+  animation: 60s slide infinite linear;
 }
 
 .logos-slide img {
