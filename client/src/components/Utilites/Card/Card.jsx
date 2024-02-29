@@ -1,7 +1,8 @@
 import React from "react";
 import "./Card.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faArrowRight} from "@fortawesome/free-solid-svg-icons"
+import {faArrowRight} from "@fortawesome/free-solid-svg-icons";
+import LeftToRight from "../Animations/LeftToRight";
 const coursesandtitles = [
   {
     title: "VAPT",
@@ -25,7 +26,7 @@ const courseContent = coursesandtitles.map((element,index)=>{
  return <>
   <div className="Card" key={index}>
    <div className="card-ctn">
-        <h2 className="card-ctn-title reveal-text">{element.title}</h2>
+        <h2 className="card-ctn-title reveal-text"> <LeftToRight> {element.title} </LeftToRight></h2>
         <h1 className="card-ctn-para">
           {element.Para}{" "}
         </h1>

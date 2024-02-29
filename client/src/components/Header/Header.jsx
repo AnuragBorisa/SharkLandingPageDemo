@@ -7,7 +7,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useEffect } from "react";
 import Form from '../Form/Form'
-
+import LeftToRight from "../Utilites/Animations/LeftToRight";
 const Header = () => {
   const [isClicked, setIsClicked] = useState(false);
   const [bgColor, setBgColor] = useState(false);
@@ -34,6 +34,7 @@ const Header = () => {
     };
   }, []);
   return (
+    
     <nav className={bgColor ? "navbarsroll" : "navBar"}>
       <h1 className="logo">SHARK!!</h1>
       {/* <img src={sharklogo} alt='logo' className='header-logo'></img> */}
@@ -73,6 +74,7 @@ const Header = () => {
         ) : null}
       </div>
     </nav>
+  
   );
 };
 

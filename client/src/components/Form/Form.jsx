@@ -5,6 +5,8 @@ import { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import LeftToRight from "../Utilites/Animations/LeftToRight";
+import RevealHeading from "../Utilites/RevealHeading/RevealHeading";
 const Form = (props) => {
   const formRef = useRef();
   const onSubmitHandler = (event) => {
@@ -40,16 +42,20 @@ const Form = (props) => {
         ref={formRef}
       >
         <div className="formContainer">
-          
-        
-          <Link className="form-sign-in"> <FontAwesomeIcon className="whatsapp" icon={faWhatsapp} /></Link>
-         
-         
+          <Link className="form-sign-in">
+            {" "}
+            <FontAwesomeIcon className="whatsapp" icon={faWhatsapp} />
+          </Link>
+
           <h1 className="sign-up-form">Get Enrolled</h1>
           <div className="form-lables">
             <div className="internal-forms">
               <label htmlFor="Full-Name">
-                <b>FULL NAME</b>
+                <b>
+                  {" "}
+                <LeftToRight> FULL NAME </LeftToRight>
+                </b>
+               
               </label>
               <input
                 type="text"
@@ -60,7 +66,7 @@ const Form = (props) => {
             </div>
             <div className="internal-forms">
               <label htmlFor="email">
-                <b>EMAIL</b>
+              <LeftToRight>   <b>EMAIL</b> </LeftToRight>
               </label>
               <input
                 type="text"
@@ -71,7 +77,7 @@ const Form = (props) => {
             </div>
             <div className="internal-forms">
               <label htmlFor="phonenumber">
-                <b>PHONE NUMBER</b>
+              <LeftToRight>  <b>PHONE NUMBER</b> </LeftToRight>
               </label>
               <input
                 type="tel"

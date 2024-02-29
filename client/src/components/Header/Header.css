@@ -22,8 +22,13 @@
   align-items: center;
   position: sticky;
   top: 0;
+  opacity: 1; /* Initial opacity (invisible) */
+  animation: reveal 1s ease-in-out forwards; /* Smooth reveal animation */
  
- 
+}
+@keyframes reveal {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 .navbarsroll{
   max-width: 1536px;

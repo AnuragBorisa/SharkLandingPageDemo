@@ -38,8 +38,9 @@
 .card-ctn-para {
   filter: blur(10px); /* Initial blur */
   transition: filter 0.3s ease-in-out; /* Transition for blur */
-  background: linear-gradient(-90deg, rgba(255,0,0,0.4), rgba(255,255,0,0.4), rgba(0,255,0,0.4), rgba(0,0,255,0.4), rgba(255,0,0,0.4)); /* Color gradient for animation */
-  background-size: 400%; /* Repeat gradient for animation */
+  /* background: linear-gradient(-90deg, rgba(255,0,0,0.4), rgba(255,255,0,0.4), rgba(0,255,0,0.4), rgba(0,0,255,0.4), rgba(255,0,0,0.4)); Color gradient for animation */
+  background: linear-gradient(-90deg, #185ab671, #66138d, #0b6cff, #0b6cff,#9f12c263);
+  background-size: 200%; /* Repeat gradient for animation */
   animation: colorFlow 2s infinite linear; /* Apply animation */
  
   font-size: 0.8em;
