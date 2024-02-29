@@ -16,7 +16,7 @@
   /* background: linear-gradient(to bottom, transparent 0%, rgba(235, 11, 11, 0.089) 100%); */
 }
 .Card:hover {
-  transform:  translateY(-30px);
+  /* transform:  translateY(-30px); */
 
   /* transform: perspective(600px) rotate3d(0.6, 0.05, 0.2, 0deg); */
 
@@ -84,7 +84,6 @@
 /* lg */
 @media (max-width: 1024px) {
   .Card {
-    padding: 0;
   }
 }
 
@@ -119,9 +118,6 @@
 
 /* Styles for screens smaller than 480px */
 @media (max-width: 480px) {
-  .Card {
-    
-  }
   .card-ctn-para {
     font-size: 0.6rem;
   }
