@@ -26,7 +26,7 @@ const courseContent = coursesandtitles.map((element,index)=>{
  return <>
   <div className="Card" key={index}>
    <div className="card-ctn">
-        <h2 className="card-ctn-title reveal-text"> <LeftToRight> {element.title} </LeftToRight></h2>
+   <LeftToRight>     <h2 className="card-ctn-title reveal-text"> {element.title} </h2></LeftToRight>
         <h1 className="card-ctn-para">
           {element.Para}{" "}
         </h1>
