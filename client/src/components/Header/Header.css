@@ -87,7 +87,7 @@
   border-radius: 20rem;
   width: 30%;
   height: 4vh;
-  max-height: 40px;
+  max-height: 50px;
   background-color:#0b6cff;
   justify-self: center;
   font-size: 1rem;
@@ -222,29 +222,32 @@
 
   .mobileLinks{
     z-index: 0;
-    background-color: #010202ef;
+    background-color: #010202;
     display: flex;
     flex-direction: column;
     position: fixed;
     top: 0rem;
     right: 0rem;
     width: 100%;
-    height: 20vh;
-    max-height: 200px;
+    height: 30vh;
+    
+    max-height: 300px;
+    
     align-items: center;
     padding-block: 5rem;
     font-size: 1.2rem;
     gap: 20px;
   }
   .internal-mobile-links{
+    background-color: #ffffff11;
     text-decoration: dashed;
     display: flex;
-    width: 100%;
+    width: 30%;
     justify-content: center;
-    color: #f5f7ff;
-    border-bottom: 2px solid #0b6cff;
+    color: #ffffff;
+    border-radius: 10px ;
     z-index: -1;
-    padding-bottom: 1rem;
+    padding: 1rem;
     
   }
   .internal-mobile-links:hover{
