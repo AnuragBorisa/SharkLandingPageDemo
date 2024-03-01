@@ -222,28 +222,33 @@
 
   .mobileLinks{
     z-index: 0;
-    background-color: #010202;
+    background-color: #010202ef;
     display: flex;
     flex-direction: column;
     position: fixed;
     top: 0rem;
     right: 0rem;
-    width: 300px;
-    height: 100%;
-    align-items: flex-start;
-    padding-left: 2rem;
-    font-size: 1.5rem;
-    gap: 50px;
-     
-
-    padding-top: 10rem;
+    width: 100%;
+    height: 20vh;
+    max-height: 200px;
+    align-items: center;
+    padding-block: 5rem;
+    font-size: 1.2rem;
+    gap: 20px;
   }
   .internal-mobile-links{
-    background-color: #0b6cff;
+    text-decoration: dashed;
+    display: flex;
     width: 100%;
+    justify-content: center;
     color: #f5f7ff;
-    border: 2px solid #0b6cff;
+    border-bottom: 2px solid #0b6cff;
     z-index: -1;
+    padding-bottom: 1rem;
+    
+  }
+  .internal-mobile-links:hover{
+    color: #0b6cff;
   }
   
   
