@@ -189,7 +189,7 @@ input:focus {
 @media (max-width: 1024px) {
   .formContainer {
     max-width: 768px;
-    width: 30vw;
+    width: 25vw;
     padding: 1rem;
     
     
@@ -202,7 +202,7 @@ input:focus {
     height: 5vh;
   }
   .form-lables {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .sign-up-form {
@@ -213,9 +213,10 @@ input:focus {
   .form-btm-label {
   }
   .form-btm-p {
-    width: 30vw;
+    width: 25vw;
   }
   .form-btm-signup {
+    height: 3vh;
     justify-self: start;
     width: 20vw;
   }

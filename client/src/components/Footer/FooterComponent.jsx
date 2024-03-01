@@ -12,8 +12,9 @@ import sharklogo from "../resourcecs/Images/Shar_Logo-01 (1).png"
 import RevealHeading from "../Utilites/RevealHeading/RevealHeading";
 const FooterComponent = () => {
   return (
-    <RevealHeading>
+    
     <footer className="footer">
+      
       <div className="footer-left">
         <div className="footer-logo-div">
         <img className="footer-logo" src={sharklogo} alt="logo"></img>
@@ -81,7 +82,7 @@ const FooterComponent = () => {
         </div>
       </div>
     </footer>
-    </RevealHeading>
+  
   );
 };
 
