@@ -76,8 +76,9 @@ input:focus {
   height: 5vh;
 }
 .sign-up-form {
+  
   align-self: flex-start;
-  /* color: #f5f7ff; */
+  
 
   font-size: 1.5rem;
 }
@@ -217,6 +218,7 @@ input:focus {
     max-width: 640px;
     width: auto;
     padding: 1rem;
+   
   }
   .start-lern-form {
     
@@ -231,6 +233,7 @@ input:focus {
   }
 
   .sign-up-form {
+    margin-top: 0;
     font-size: 2rem;
   }
   .form-btm {
@@ -263,6 +266,7 @@ input:focus {
 /* Styles for screens smaller than 480px */
 @media (max-width: 480px) {
   .formContainer {
+   
   }
 
   .form-lables {
@@ -275,6 +279,7 @@ input:focus {
   .form-sign-in {
   }
   .sign-up-form {
+    margin-top: 0;
     align-self: center;
     font-size: 2rem;
   }
