@@ -10,15 +10,12 @@ const CourseContent = () => {
   return (
     <section className="course-ctn" >
       <div className="course-titles">
-     <h1 className="course-tag">  <RevealHeading>Professional courses on creating websites </RevealHeading>
+     <h1 className="course-tag">  <RevealHeading>Professional courses on Cyber Security </RevealHeading>
 </h1>
                     
 
  <p className="course-tag-para">
- <RevealHeading>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
-          nesciunt facere cupiditate aperiam temporibus expedita praesentium
-          inventore perspiciatis porro? Beatae corrupti exercitationem suscipit
-          ipsum nihil quis facere labore ratione odit.
+ <RevealHeading>  From mastering coding essentials to implementing cutting-edge design principles, we'll equip you with everything you need to thrive in cybersecurity. Elevate your skills and craft robust defenses that leave a lasting digital impression. Dive into the dynamic world of cybersecurity and transform your creativity into a formidable online shield.
           </RevealHeading> 
         </p>
       
