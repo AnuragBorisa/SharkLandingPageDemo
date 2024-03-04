@@ -184,14 +184,18 @@
 }
 
 .main-pge-left {
-  border-radius: 30px;
-  box-shadow: 0 0 0px 1px #f5f7ff;
-  background-color: #1113140a;
+  border-radius: 10px;
   display: flex;
   padding: 2rem;
   margin-right: 8rem;
-  opacity: 1; /* Initial opacity (invisible) */
+  opacity: 0.9; /* Adjust opacity for overall form transparency */
   animation: reveal 1s ease-in-out forwards; /* Smooth reveal animation */
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(70px);
+  -webkit-backdrop-filter: blur(70px);
+  border-radius: 20px;
+  border:1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 .main-pge-left:hover {
   /* outer right cyan */

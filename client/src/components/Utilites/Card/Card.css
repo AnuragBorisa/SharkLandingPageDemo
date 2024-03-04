@@ -55,15 +55,18 @@
 .card-redirect {
   display: flex;
   flex-direction: row;
+  
+
 }
 .card-read-more {
+  
   position: absolute;
   background-color: #f5f7ff00;
   border: 0;
   color: #f5f7ff;
-  width: 10%;
-  font-size: 4rem;
-  top: 60%;
+  align-self:center;
+  font-size: 2rem;
+  
   z-index: 1;
 }
 .card-img {
@@ -71,6 +74,10 @@
   flex: 1;
   width: 100%;
   height: 100%;
+  transition: transform 0.3s ease-in-out;
+}
+.card-img:hover{
+  transform: scale(1.07);
 }
 
 /* 2xl */
@@ -112,14 +119,13 @@
   .card-redirect {
     width: 100%;
     padding-top: 2rem;
-    justify-content: center;
+    justify-content: flex-start;
   }
   .card-read-more {
-    width: 30vw;
+    
   }
   .card-img {
-    width: 100%;
-    height: auto;
+    
   }
 }
 
@@ -129,8 +135,8 @@
     font-size: 0.6rem;
   }
   .card-read-more {
-    width: 50vw;
-    height: 6vh;
-    font-size: 0.8rem;
+   
+   
+    
   }
 }
