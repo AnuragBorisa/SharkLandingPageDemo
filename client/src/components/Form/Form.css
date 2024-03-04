@@ -219,6 +219,7 @@ input:focus {
     padding: 1rem;
   }
   .start-lern-form {
+    
     margin-top: -50rem;
   }
   .whatsapp {
@@ -230,7 +231,7 @@ input:focus {
   }
 
   .sign-up-form {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   .form-btm {
   }
@@ -275,7 +276,7 @@ input:focus {
   }
   .sign-up-form {
     align-self: center;
-    font-size: 1.2rem;
+    font-size: 2rem;
   }
   .whatsapp {
     width: 5vw;
