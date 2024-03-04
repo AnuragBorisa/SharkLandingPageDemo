@@ -7,17 +7,17 @@ const coursesandtitles = [
   {
     title: "VAPT",
     Para: "Equips learners with skills toidentify,assess,and mitigate cybersecurity risks in systems. Topics include reconnaissance,exploitation, and reporting, preparing individuals for roles in cybersecurity defense and analysis.",
-    img: "",
+    img: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709534578/images/udbjwz56csbzzidrmwry.jpg",
   },
   {
     title: "Mobile Security",
     Para: "Mobile Security focuses on securing mobile devices and applications against cyber threats. Topics include secure coding practices, mobile app vulnerabilities, encryption, and secure communication protocols.",
-    img: "logo",
+    img: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709534578/images/vyph9kwxkil7yrnhcnyb.jpg",
   },
   {
     title: "Web Security",
     Para: "Teaches strategies to protect web applications and servers from cyber threats. Topics cover common vulnerabilities like SQL injection and cross-site scripting, Along with this we also nourish your encryption.",
-    img: "logo",
+    img: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709534578/images/kzgcyx2farssso4xswly.jpg",
   },
 
 ];

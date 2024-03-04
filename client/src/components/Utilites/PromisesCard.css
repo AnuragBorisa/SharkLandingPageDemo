@@ -5,12 +5,17 @@
   
 
 }
+.promises-img{
+  width: 30%;
+  height: 30%;
+
+}
 .promises-internal {
    
   width: 12vw;
   max-width: 150px;
-  height: 17vh;
-  max-height: 120px;
+  height: 25vh;
+  max-height: 150px;
   /* background-color: #f5f7ff; */
   box-shadow: 0 0 15px #0b6cff;
   color: #f5f7ff;
