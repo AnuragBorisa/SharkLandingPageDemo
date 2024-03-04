@@ -110,14 +110,15 @@ input:focus {
   grid-column: 1;
   grid-row: 3;
   border: 0;
-
+  
   justify-self: center;
   font-family: "Noyh", sans-serif;
   border-radius: 20px;
   color: #f5f7ff;
   width: 20vw;
-  max-width: 400px;
   
+  max-width: 400px;
+  max-height: 40px;
   background-color:#0b6cff;
   
   font-size: 1rem;
@@ -181,7 +182,7 @@ input:focus {
    
   }
   .form-btm-signup{
-    height: 4vh;
+   
   }
 }
 
@@ -216,7 +217,9 @@ input:focus {
     width: 25vw;
   }
   .form-btm-signup {
-    height: 3vh;
+    
+   
+        
     justify-self: start;
     width: 20vw;
   }
@@ -268,6 +271,7 @@ input:focus {
     width: 60vw;
   }
   .form-btm-signup {
+    
     justify-self: start;
     width: 20vw;
   }

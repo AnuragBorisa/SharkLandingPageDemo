@@ -4,8 +4,6 @@
   --iterations: 1;
 }
 
-
-
 .main-pge-container {
   max-width: 1536px;
   margin-left: auto;
@@ -20,7 +18,6 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
   /* background-image: url("../resourcecs/Images/BG-12new.png"); */
- 
 }
 .main-page-title-color {
   color: #0b6cff;
@@ -63,24 +60,21 @@
 
   opacity: 0; /* Initial opacity (invisible) */
   animation: reveal 2s ease-in-out forwards; /* Smooth reveal animation */
-
-
-
-
-
-
-
-  
 }
 @keyframes reveal {
-  from { opacity: 0; }
-  to { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .main-page-btns {
   font-family: "Gilroy";
-  padding: 1%;
-  width: 20%;
-  margin-left: 2.3rem;
+  align-self: flex-start;
+ 
+ 
+  
 }
 .start-learn-btn {
   margin-left: 0.2rem;
@@ -100,12 +94,11 @@
 }
 .close-form-sign {
   z-index: 10;
- 
+
   /* margin-top: -30rem; */
   align-self: flex-start;
   margin-right: 40rem;
-  
-  
+
   font-size: 2rem;
 }
 .close-form-sign:hover {
@@ -127,27 +120,24 @@
   animation: glow 5s infinite;
 }
 
-
 .reveal-text,
 .reveal-text::after {
   animation-delay: var(--animation-delay, 2s);
   animation-iteration-count: var(--iterations, 1);
   animation-duration: var(--duration, 800ms);
   animation-fill-mode: both;
-  animation-timing-function: cubic-bezier(0.0, 0.0, 0.2, 1);
+  animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
 }
 
 .reveal-text {
   --animation-delay: var(--delay, 0);
   --animation-duration: var(--duration, 800ms);
   --animation-iterations: var(--iterations, 1);
- 
-  
+
   animation-name: clip-text;
-  
- 
+
   cursor: default;
-  
+
   &::after {
     content: "";
     position: absolute;
@@ -162,9 +152,7 @@
     pointer-events: none;
     animation-name: text-revealer;
   }
-  
 }
-
 
 @keyframes clip-text {
   from {
@@ -175,30 +163,25 @@
   }
 }
 
-
 @keyframes text-revealer {
-  
-  0%, 50% {
+  0%,
+  50% {
     transform-origin: 0 50%;
   }
-  
-  60%, 100% {
-    transform-origin: 100% 50%;   
+
+  60%,
+  100% {
+    transform-origin: 100% 50%;
   }
 
-  
   60% {
     transform: scaleX(1);
   }
-  
+
   100% {
     transform: scaleX(0);
   }
 }
-
-
-
-
 
 .main-pge-left {
   border-radius: 30px;
@@ -209,15 +192,9 @@
   margin-right: 8rem;
   opacity: 1; /* Initial opacity (invisible) */
   animation: reveal 1s ease-in-out forwards; /* Smooth reveal animation */
- 
-  
-  
 }
-.main-pge-left:hover{
- 
-        /* outer right cyan */
-  
-  
+.main-pge-left:hover {
+  /* outer right cyan */
 }
 
 /* 2xl */
@@ -236,7 +213,7 @@
     font-size: 0.9rem;
   }
   .main-page-btns {
-    margin-left: 1.5rem;
+  
     width: 25%;
   }
   .main-pge-left {
@@ -245,20 +222,19 @@
   }
   .close-form-sign {
     z-index: 10;
-   display: flex;
+    display: flex;
 
-   flex-direction: column;
-    
+    flex-direction: column;
+
     font-size: 2rem;
   }
   .close-form-sign {
     z-index: 10;
-   
+
     /* margin-top: -30rem; */
     align-self: flex-start;
     margin-right: 30rem;
-    
-    
+
     font-size: 2rem;
   }
 }
@@ -267,7 +243,6 @@
 @media (max-width: 1280px) {
   .main-pge-container {
     max-width: 1024px;
-   
   }
 
   /* Add some code here to adjust the layout and font sizes for xl screens */
@@ -286,16 +261,14 @@
   .main-pge-left {
     margin: 0;
     padding: 1rem;
-    
   }
   .close-form-sign {
     z-index: 10;
-   
+
     /* margin-top: -30rem; */
     align-self: flex-start;
     margin-right: 30rem;
-    
-    
+
     font-size: 2rem;
   }
 }
@@ -304,15 +277,11 @@
 @media (max-width: 1024px) {
   .main-pge-container {
     max-width: 768px;
-   
+
     padding: 2rem;
-    
-  
-   
   }
   .main-pge-right {
-
-   
+    padding: 1rem;
   }
   .heading {
     margin: 0;
@@ -330,17 +299,17 @@
   }
   .main-page-btns {
     width: 50%;
-    margin-left: 0;
+    
+    
   }
   .start-learn-btn {
+    
     height: 6vh;
     font-size: 1rem;
   }
   .main-pge-left {
-    
     margin-block: 2rem;
     align-self: center;
-    
   }
   .close-form-sign {
     position: absolute;
@@ -358,33 +327,42 @@
 @media (max-width: 768px) {
   .main-pge-container {
     max-width: 640px;
-   
+
     padding: 0;
-    
+
     flex-direction: column;
    
+    
   }
   .main-pge-right {
+    align-items: center;
+  
     
-    width: 70vw;
   }
   .heading {
+    text-align: center;
     margin: 0;
     width: 100%;
   }
   .wel-tag {
+    text-align: center;
     width: 100%;
   }
   .main-heading {
+    text-align: center;
     font-size: 2rem;
     width: 100%;
   }
   .main-para {
-    width: 90%;
+    text-align: center;
+    width: 100%;
   }
   .main-page-btns {
-    width: 50%;
-    margin-left: 0;
+    align-self: center;
+
+   
+    width: 100%;
+    
   }
   .start-learn-btn {
     height: 6vh;
@@ -409,17 +387,10 @@
 /* sm */
 @media (max-width: 640px) {
   .main-pge-container {
-   
-    padding: 2rem;
     max-width: 475px;
   }
   /* Add some code here to adjust the layout and font sizes for sm screens */
   .main-pge-right {
-    
-    padding: 5rem;
-    width: 70vw;
-    padding-top: 0;
-   
   }
   .main-heading {
     font-size: 2rem;
@@ -428,7 +399,7 @@
     font-size: 1rem;
   }
   .main-page-btns {
-    width: 60%;
+   
   }
   .start-learn-btn {
     height: 5vh;
@@ -441,20 +412,14 @@
 /* xs */
 @media (max-width: 480px) {
   .main-pge-container {
-    padding: 0.5rem;
-    padding-top: 2rem;
+    padding-left: 0;
+    
     width: 100%;
   }
   .heading {
-    width: 100%;
   }
   .main-pge-right {
-    align-self: center;
-    justify-self: center;
-    padding: 0rem;
-    width: 80vw;
-    flex-basis: auto;
-    height: auto;
+   padding: 1rem;
   }
   .main-heading {
     font-size: 1.8rem;
@@ -463,9 +428,10 @@
     font-size: 0.8rem;
   }
   .main-page-btns {
-    width: 70%;
+    
   }
   .start-learn-btn {
+    margin: 0;
     width: 40vw;
     font-size: 0.8rem;
   }
@@ -475,14 +441,12 @@
     box-shadow: 0px 0px 0px 0px;
     padding: 0;
     padding-block: 2rem;
-
-   
   }
   .close-form-sign {
     position: absolute;
     top: 100px;
     margin: 0;
-    margin-left: 0  rem;
+    margin-left: 0 rem;
     padding-top: 5rem;
     width: 10vw;
   }

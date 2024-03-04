@@ -86,7 +86,9 @@
   font-family: "Noyh", sans-serif;
   border-radius: 20rem;
   width: 30%;
-  height: 4vh;
+ 
+  height: 5vh;
+  
   white-space: nowrap;
   max-height: 40px;
   background-color:#0b6cff;

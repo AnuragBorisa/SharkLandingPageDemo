@@ -41,12 +41,13 @@ const MainPage = () => {
               make you one.
             </p>
           </div>
-        </div>
-        <div className="main-page-btns">
+          <div className="main-page-btns">
           <button className="start-learn-btn reveal-text" onClick={isClickedHandler}>
             Start Learing For Free
           </button>
         </div>
+        </div>
+       
       </div>
       <div className="main-pge-left">
         <Form className="form-pge" />
