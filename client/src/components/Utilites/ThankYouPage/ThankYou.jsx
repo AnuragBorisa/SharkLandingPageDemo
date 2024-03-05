@@ -7,9 +7,13 @@ import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { useEffect } from "react";
 import Header from "../../Header/Header";
 import FooterComponent from "../../Footer/FooterComponent";
 const ThankYou = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []); // Scroll to top when courseId changes
   return (
     <>
     <Header />
