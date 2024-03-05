@@ -6,6 +6,12 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
 import { coursesAndTitles } from './store/CourseContentConstant';
 import { CourseContentProvider } from './store';
+import TagManager from 'react-gtm-module';
+const tagManagerArgs = {
+  gtmId: 'GTM-TSPT2PMX', 
+};
+
+TagManager.initialize(tagManagerArgs);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
