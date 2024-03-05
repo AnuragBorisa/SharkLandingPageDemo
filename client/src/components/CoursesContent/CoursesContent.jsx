@@ -25,8 +25,9 @@ const CoursesContent = () => {
             <RevealHeading> {course.title} </RevealHeading>
             </h1>
             <p className="coursesContent-para">
-            <RevealHeading> {course.Para}</RevealHeading>
+            <RevealHeading> {course.Para} <br></br> <br></br> Join us, if you think you have a knack for Digital Security. Fill out the form below!!</RevealHeading>
             </p>
+            <RevealHeading> </RevealHeading>
           </div>
           <div className="coursesctndesk-ctner-right">
           <RevealHeading> <img
