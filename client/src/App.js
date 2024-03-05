@@ -5,7 +5,7 @@ import { Route,Routes } from "react-router-dom";
 import { Home } from './pages/Home';
 import Courses from "./pages/Courses"
 import { useLocation } from 'react-router-dom';
-
+import ThankYou from './components/Utilites/ThankYouPage/ThankYou';
 function App() {
   const location = useLocation();
   return (
@@ -16,6 +16,7 @@ function App() {
        <Routes>
        <Route path="/" element={<Home />} /> 
      <Route path="/courses/:id" element={<Courses key={location.pathname} /> }/>
+     <Route path="/thankyou" element={<ThankYou />}></Route>
      </Routes>
      </>
     </div>

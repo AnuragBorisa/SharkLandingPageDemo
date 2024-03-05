@@ -7,6 +7,7 @@ import Acknowlege from '../components/Acknowlege/Acknowlege'
 import Testimonials from '../components/Testimonials/Testimonials'
 import FooterComponent from '../components/Footer/FooterComponent'
 
+
 export const Home = () => {
   return (
     <>
@@ -17,6 +18,7 @@ export const Home = () => {
    <Acknowlege />
    <Testimonials />
    <FooterComponent />
+  
    </>
   )
 }

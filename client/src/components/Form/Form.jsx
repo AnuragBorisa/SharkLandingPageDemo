@@ -5,10 +5,13 @@ import { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 import LeftToRight from "../Utilites/Animations/LeftToRight";
 import RevealHeading from "../Utilites/RevealHeading/RevealHeading";
 const Form = (props) => {
+  const navigate = useNavigate();
   const formRef = useRef();
+ 
   const onSubmitHandler = (event) => {
     event.preventDefault();
     const data = new FormData(event.currentTarget);
@@ -26,10 +29,13 @@ const Form = (props) => {
       .then((res) => {
         console.log(res.data.message);
         formRef.current.reset();
+        navigate("/thankyou");
       })
       .catch((err) => {
         console.log(err.response.data);
       });
+
+     
   };
 
   return (
@@ -105,7 +111,7 @@ const Form = (props) => {
               </a>
               .
             </p>
-            <button type="submit" className="form-btm-signup">
+            <button  type="submit" className="form-btm-signup">
               Sign Up
             </button>
           </div>

@@ -1,0 +1,98 @@
+.thank-you-container{
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    display: grid;
+    place-content: center;
+  
+   
+    
+}
+.thank-you-h1{
+   font-size: 4rem;
+}
+.thank-you-h2{
+    margin-top: -3rem;
+    padding: 2rem;
+    font-size: 1.8rem;
+}
+.thank-you-btn{
+    max-width: 200px;
+    width: 50vw;
+    background-color: #0b6dff00;
+    color: azure;
+    border: 2px #0b6cff solid;
+    border-radius: 10px;
+    height: 4vh;
+    max-height: 40px;
+}
+.thank-you-btn:hover{
+    box-shadow: 0px 0px 10px #0b6cff;
+}
+.thank-you-img{
+    
+   height: 40vh;
+   max-height: 400px;
+   
+}
+.thank-you-social{
+    display: flex;
+    gap: 1rem;
+}
+/* 2xl */
+@media (max-width: 1536px) {
+  .thank-you-container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .thank-you-container {
+    max-width: 1024px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .thank-you-container {
+    max-width: 768px;
+  }
+  .thank-you-h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .thank-you-container {
+    padding: 0;
+    max-width: 640px;
+  }
+  .thank-you-h1{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .thank-you-h2{
+    font-size: 1rem;
+    text-align: center;
+  }
+
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .thank-you-container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .thank-you-container {
+    width: 100%;
+  }
+}
