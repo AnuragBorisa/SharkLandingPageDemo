@@ -12,6 +12,10 @@ const CoursesContent = () => {
     const params = useParams();
     const Courses = useCourseContext();
     const course = Courses.find((topic) => topic.endpoint === params.id);
+    const coursepoints = course.points.map((element,index)=>{
+      return <li key={index}>{element}</li>
+    })
+
     useEffect(() => {
         window.scrollTo(0, 0);
       }, [course]); // Scroll to top when courseId changes
@@ -41,23 +45,7 @@ const CoursesContent = () => {
           <div className="what-you-will-learn">
             <h1 className="wht-learn"> <RevealHeading> What You"ll Learn </RevealHeading></h1>
             <RevealHeading>    <div className="courses-points">
-              <li>
-                Learn what document databases are and how data is organized with
-                MongoDB
-              </li>
-              <li>
-                Don't stop at the basics - learn all about writing complex
-                MongoDB queries, in-depth and with practical examples!
-              </li>
-              <li>
-                Use all features MongoDB offers you to work with data
-                efficiently
-              </li>
-              <li>Learn how to perform CRUD operations with MongoDB</li>
-              <li>
-                Write efficient and well-performing queries to fetch data in the
-                format you need it
-              </li>
+             {coursepoints}
             </div>
             </RevealHeading>
           </div>
