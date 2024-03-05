@@ -12,28 +12,47 @@ const Form = (props) => {
   const navigate = useNavigate();
   const formRef = useRef();
  
-  const onSubmitHandler = (event) => {
+  const onSubmitHandler = async (event) => {
     event.preventDefault();
-    const data = new FormData(event.currentTarget);
-    console.log(data);
-    const fullName = data.get("FullName");
-    const email = data.get("email");
-    const phoneNumber = data.get("phonenumber");
+    const formData = new FormData(event.currentTarget);
+    console.log(formData);
+    formData.append("access_key", "021e7b0d-2339-42e5-bd80-f853fd4a6f8d");
 
-    axios
-      .post("http://localhost:8080/saveForm/form", {
-        fullName,
-        email,
-        phoneNumber,
-      })
-      .then((res) => {
-        console.log(res.data.message);
-        formRef.current.reset();
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      formRef.current.reset();
         navigate("/thankyou");
-      })
-      .catch((err) => {
-        console.log(err.response.data);
-      });
+      console.log("Success", res);
+    }
+    // const fullName = data.get("FullName");
+    // const email = data.get("email");
+    // const phoneNumber = data.get("phonenumber");
+    
+    // axios
+    //   .post("http://localhost:8080/saveForm/form", {
+    //     fullName,
+    //     email,
+    //     phoneNumber,
+    //   })
+    //   .then((res) => {
+    //     console.log(res.data.message);
+    //     formRef.current.reset();
+    //     navigate("/thankyou");
+    //   })
+    //   .catch((err) => {
+    //     console.log(err.response.data);
+    //   });
 
      
   };
