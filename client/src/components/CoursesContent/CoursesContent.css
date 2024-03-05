@@ -1,0 +1,201 @@
+.CoursesContent-Container{
+    max-width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+ 
+   
+    
+}
+.coursesctndesk-ctner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.coursesctndesk-ctner-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+
+    
+}
+.coursesContent-heading{
+    display: flex;
+  
+    font-size: 4rem;
+    padding-inline: 4rem;
+    max-width: 800px;
+}
+.coursesContent-para{
+    font-size: 1rem;
+    padding: 4rem;
+    padding-block: 0;
+    max-width: 800px;
+
+}
+.coursesctndesk-ctner-right{
+    display: flex;
+    align-items: center;
+
+
+   
+}
+.couresContent-img{
+    border-radius: 20px;
+    width: 40vw;
+    height: 50vh;
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+
+    max-width: 800px;
+    max-height: 600px;
+    transition: transform 0.3s ease-in-out;
+}
+.couresContent-img:hover{
+    transform: scale(1.07);
+  }
+
+.description-two-container{
+  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+.what-you-will-learn{
+    width: 50vw;
+    border: 2px seagreen solid;
+    padding: 1rem;
+}
+.courses-points{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px 10px;
+    padding: 1rem;
+}
+/* 2xl */
+/* Styles for 2xl screens */
+@media (max-width: 1536px) {
+    .CoursesContent-Container{
+        max-width: 1280px;
+      }
+    .coursesctndesk-ctner {
+      padding: 1rem;
+    }
+    .coursesContent-heading {
+      font-size: 3.5rem;
+      padding-inline: 2rem;
+    }
+    .coursesContent-para {
+      font-size: 0.9rem;
+      padding: 2rem;
+    }
+    .couresContent-img {
+      width: 35vw;
+      height: 45vh;
+    }
+    .what-you-will-learn {
+      width: 45vw;
+    }
+    .courses-points {
+      grid-template-columns: 1fr;
+      grid-gap: 5px;
+    }
+  }
+  
+  /* Styles for xl screens */
+  @media (max-width: 1280px) {
+    .CoursesContent-Container {
+        max-width: 1024px;
+      }
+    .coursesctndesk-ctner {
+      flex-direction: column;
+      align-items: center;
+    }
+    .coursesContent-heading {
+      font-size: 3rem;
+    }
+    .coursesContent-para {
+      font-size: 0.8rem;
+    }
+    .couresContent-img {
+      width: 100%;
+      height: auto;
+    }
+    .description-two-container{
+        justify-content: space-evenly;
+    }
+    .what-you-will-learn {
+      width: 50%;
+    }
+  }
+  
+  /* Styles for lg screens */
+  @media (max-width: 1024px) {
+    .CoursesContent-Container{
+        max-width: 768px;
+      }
+    .coursesContent-heading {
+      font-size: 2.5rem;
+    }
+    .coursesContent-para {
+      font-size: 0.7rem;
+    }
+  }
+  
+  /* Styles for md screens */
+  @media (max-width: 768px) {
+    .CoursesContent-Container{
+
+        max-width: 640px;
+      }
+    .coursesContent-heading {
+      font-size: 2rem;
+    }
+    .coursesContent-para {
+        text-align: center;
+      font-size: 0.8rem;
+    }
+    .description-two-container{
+        flex-direction: column;
+    }
+    .what-you-will-learn {
+        width: 80%;
+    }
+    .courses-points{
+    grid-template-rows: 1fr;
+    }
+  }
+  
+  /* Styles for sm screens */
+  @media (max-width: 640px) {
+    .CoursesContent-Container {
+        max-width: 475px;
+      }
+    .coursesContent-heading {
+      font-size: 2rem;
+    }
+    .coursesContent-para {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* Styles for xs screens */
+  @media (max-width: 475px) {
+    .CoursesContent-Container{
+        width: 100%;
+      }
+    .coursesContent-heading {
+      font-size: 2rem;
+    }
+    .coursesContent-para {
+      font-size: 0.8rem;
+    }
+  }
