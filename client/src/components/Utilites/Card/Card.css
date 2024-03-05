@@ -1,7 +1,7 @@
 .Card {
   display: grid;
   width: 100%;
-  border: solid 2px #f5f7ff;
+  /* border: solid 2px #f5f7ff; */
   border-radius: 30px;
   height: 50vh;
   grid-template-columns: 1fr;
@@ -12,6 +12,7 @@
   max-height: 300px;
   max-width: var(--fixed-width);
   transition: transform 0.5s; /* this creates the smooth animation */
+  box-shadow: 0 0 10px #0b6cff;
 
   /* background: linear-gradient(to bottom, transparent 0%, rgba(235, 11, 11, 0.089) 100%); */
 }
@@ -36,12 +37,7 @@
 .card-ctn-title {
 }
 .card-ctn-para {
-  filter: blur(10px); /* Initial blur */
-  transition: filter 0.3s ease-in-out; /* Transition for blur */
-  /* background: linear-gradient(-90deg, rgba(255,0,0,0.4), rgba(255,255,0,0.4), rgba(0,255,0,0.4), rgba(0,0,255,0.4), rgba(255,0,0,0.4)); Color gradient for animation */
-  background: linear-gradient(-10deg,#4169b7, #4169b7, #9472b9,#4169b7,#4169b7);
-  background-size: 200%; /* Repeat gradient for animation */
-  animation: colorFlow 2s infinite linear; /* Apply animation */
+ 
  
   font-size: 0.8em;
 }
@@ -75,6 +71,7 @@
   width: 100%;
   height: 100%;
   transition: transform 0.3s ease-in-out;
+  filter: grayscale(100%);
    
 }
 .card-img:hover{

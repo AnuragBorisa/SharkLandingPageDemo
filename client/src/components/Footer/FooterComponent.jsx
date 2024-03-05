@@ -27,10 +27,10 @@ const FooterComponent = () => {
             <h4>ABOUT</h4>
             <ul>
               <li>
-                <a href="#">Flowbite</a>
+                <a href="#">Get to Know</a>
               </li>
               <li>
-                <a href="#">Tailwind CSS</a>
+                <a href="#">Contact Us</a>
               </li>
             </ul>
           </div>
