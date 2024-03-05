@@ -177,6 +177,7 @@
   /* Styles for sm screens */
   @media (max-width: 640px) {
     .CoursesContent-Container {
+        padding: 0;
         max-width: 475px;
       }
     .coursesContent-heading {
