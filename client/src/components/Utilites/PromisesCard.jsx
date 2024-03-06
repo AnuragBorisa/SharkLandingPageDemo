@@ -10,18 +10,18 @@ const promisesup = [
   { 
     img: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709535833/images/hhfnk06lzhwy0lidchxx.png",
     title: "CEH",
-    para: "The fastest way to grow profitably",
+    para: "Equips you with an Ethical identity.",
   },
 ];
 const promisesdown = [{
   img: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709535833/images/amknssazyw1tldysyq6x.png",
   title: "CISA",
-  para: "lorem",
+  para: "Validates your credebility the right.",
 },
 { 
   img: "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709535833/images/imyqxfhw4g9y7mfdfjw1.png",
   title: "CISSP",
-  para: "The fastest way to grow profitably",
+  para: "To help you navigate on a global front.",
 },]
 
 const promisesupelement = promisesup.map((element,index)=>{

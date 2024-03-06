@@ -39,10 +39,23 @@ const Header = () => {
       {/* <img src={sharklogo} alt='logo' className='header-logo'></img> */}
 
       <div className="navlinks">
-        <NavLink className="header-links-effects" to="/">
+        <a className="header-links-effects" href="/">
+          Home
+        </a>
+        <a className="header-links-effects" href="#two">
+          Courses
+        </a>
+        <a className="header-links-effects" href="#three">
+          Certificates
+        </a>
+        <a className="header-links-effects" href="#four">
+          Contact
+        </a>
+
+        {/* <NavLink className="header-links-effects" to="/">
           Home
         </NavLink>
-        <NavLink className="header-links-effects" to="/">
+        <NavLink className="header-links-effects" to="/#two">
           About
         </NavLink>
         <NavLink className="header-links-effects" to="/">
@@ -50,7 +63,7 @@ const Header = () => {
         </NavLink>
         <NavLink className="header-links-effects" to="/">
           Contact
-        </NavLink>
+        </NavLink> */}
       </div>
 
       <button className="header-btn" onClick={isHeaderBtnClickedHandler}>
@@ -75,18 +88,30 @@ const Header = () => {
         />
         {isClicked ? (
           <div className="mobileLinks">
-            <NavLink className="internal-mobile-links" to="/">
+            <a className="internal-mobile-links" href="/">
+              Home
+            </a>
+            <a className="internal-mobile-links" href="#two" onClick={(isClickedHandler)}>
+              Courses
+            </a>
+            <a className="internal-mobile-links" href="#three" onClick={(isClickedHandler)}>
+              Certificates
+            </a>
+            <a className="internal-mobile-links" href="#four" onClick={(isClickedHandler)}>
+              Contact
+            </a>
+            {/* <NavLink className="internal-mobile-links" to="/">
               <LeftToRight> Home </LeftToRight>
             </NavLink>
-            <NavLink className="internal-mobile-links" to="/">
-            <LeftToRight >   About </LeftToRight>
+            <NavLink className="internal-mobile-links" to="/#two">
+            <LeftToRight >Courses</LeftToRight>
             </NavLink>
-            <NavLink className="internal-mobile-links" to="/">
-            <LeftToRight >    News </LeftToRight>
+            <NavLink className="internal-mobile-links" to="/#three">
+            <LeftToRight >Certificates</LeftToRight>
             </NavLink>
-            <NavLink className="internal-mobile-links" to="/">
-            <LeftToRight >     Contact </LeftToRight> 
-            </NavLink>
+            <NavLink className="internal-mobile-links" to="/#four">
+            <LeftToRight >Contact</LeftToRight> 
+            </NavLink> */}
           </div>
         ) : null}
       </div>

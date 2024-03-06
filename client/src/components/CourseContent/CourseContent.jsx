@@ -8,7 +8,7 @@ const CourseContent = () => {
   
 
   return (
-    <section className="course-ctn" >
+    <section className="course-ctn" id="two" >
       <div className="course-titles">
      <h1 className="course-tag">  <RevealHeading>Professional courses on Cyber Security </RevealHeading>
 </h1>

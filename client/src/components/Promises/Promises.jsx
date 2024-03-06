@@ -4,7 +4,7 @@ import PromisesCard from "../Utilites/PromisesCard";
 import RevealHeading from "../Utilites/RevealHeading/RevealHeading";
 const Promises = () => {
   return (
-    <section className="promises-container">
+    <section className="promises-container" id="three">
       <div className="promises-left">
      <h1 className="promises-heading">
      <RevealHeading> Unleashing Accessibility In{" "}
