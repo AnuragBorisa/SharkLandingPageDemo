@@ -14,7 +14,7 @@ function App() {
        {/* {initGTM('GTM-TSPT2PMX')}; */}
        <>
        <Routes>
-       <Route path="/" element={<Home />} /> 
+       <Route path="/" element={<Home key={location.pathname}  /> } /> 
      <Route path="/courses/:id" element={<Courses key={location.pathname} /> }/>
      <Route path="/thankyou" element={<ThankYou />}></Route>
      </Routes>
