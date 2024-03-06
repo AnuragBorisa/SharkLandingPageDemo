@@ -68,16 +68,16 @@
   color: #f5f7ff;
   /* font-family: "EgGothic"; */
   font-family: "Gilroy";
-  /* background-repeat: round; */
-  background-repeat: none;
+  background-repeat: round;
+  /* background-repeat: none; */
 
-  /* background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1708419769/images/aafafqmeohpsyo61lmna.png"); */
+  background-image: url("https://res.cloudinary.com/dhuagtzvw/image/upload/v1709722131/images/yfxmb4v2moz4hgauaumm.jpg");
  
   /* background-image: linear-gradient(to top, rgba(216, 216, 216, 0.692), rgba(108, 75, 239, 0) 75%); */
 
-  /* background-color: rgba(12, 12, 12, 0.856);  */
-  /* background-blend-mode: darken;   */
-  /* background-position: 100% 1000%; */
+  background-color: rgba(12, 12, 12, 0.329); 
+  background-blend-mode: darken;  
+ 
 
   overflow: clip;
 }
