@@ -78,13 +78,13 @@ const Header = () => {
             <NavLink className="internal-mobile-links" to="/">
               <LeftToRight> Home </LeftToRight>
             </NavLink>
-            <NavLink className="internal-mobile-links" to="/">
+            <NavLink className="internal-mobile-links" to="/two">
             <LeftToRight >Courses</LeftToRight>
             </NavLink>
-            <NavLink className="internal-mobile-links" to="/">
+            <NavLink className="internal-mobile-links" to="/three">
             <LeftToRight >Certificates</LeftToRight>
             </NavLink>
-            <NavLink className="internal-mobile-links" to="/">
+            <NavLink className="internal-mobile-links" to="/four">
             <LeftToRight > Contact </LeftToRight> 
             </NavLink>
           </div>
