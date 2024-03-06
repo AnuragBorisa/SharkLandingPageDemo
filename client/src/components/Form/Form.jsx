@@ -1,19 +1,22 @@
 import React from "react";
 import "./Form.css";
-import axios from "axios";
+// import axios from "axios";
 import { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 import LeftToRight from "../Utilites/Animations/LeftToRight";
-import RevealHeading from "../Utilites/RevealHeading/RevealHeading";
+import LoadingSpiner from "../Utilites/LoadingSpiner/LoadingSpiner";
+import { useState } from "react";
 const Form = (props) => {
+  const [loading,setisLoading] = useState(false);
   const navigate = useNavigate();
   const formRef = useRef();
  
   const onSubmitHandler = async (event) => {
     event.preventDefault();
+    setisLoading(true);
     const formData = new FormData(event.currentTarget);
     console.log(formData);
     formData.append("access_key", "992b1174-8fcc-445c-9130-c3d1652e0121");
@@ -31,6 +34,7 @@ const Form = (props) => {
     }).then((res) => res.json());
 
     if (res.success) {
+      setisLoading(false);
       formRef.current.reset();
         navigate("/thankyou");
       console.log("Success", res);
@@ -136,6 +140,7 @@ const Form = (props) => {
           </div>
         </div>
       </form>
+      {loading && <LoadingSpiner />}
     </>
   );
 };

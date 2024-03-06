@@ -5,7 +5,7 @@ const reviews = [
       name: 'Chirag Trivedi',
       job: 'Student(Ganpat University)',
       image:
-        "https://res.cloudinary.com/dhuagtzvw/image/upload/v1708412126/images/glsnaxea23eup4qzrino.png",
+        "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709699081/images/xfinca1v0zcnikmq7xrf.png",
       text:
         "I attended the top-notch cybersecurity classes in Ahmedabad, where I gained proficiency in Python and cybersecurity. The learning process was simplified, even in online mode.",
     },
@@ -14,7 +14,7 @@ const reviews = [
       name: 'Sakshi Amin',
       job: 'Student(Ganpat University)',
       image:
-       "https://res.cloudinary.com/dhuagtzvw/image/upload/v1708412125/images/fdzjdk3npwfbqet8xhyt.png",
+       "https://res.cloudinary.com/dhuagtzvw/image/upload/v1709699081/images/biznzfkkfddjlbn37hwf.png",
       text:
         "Initially, it was challenging for me, as a student, to grasp the fundamentals of cybersecurity. However, after joining Shark CyberTech, my skills significantly improved, leading to a notable upgrade in my abilities.",
     },
@@ -23,7 +23,7 @@ const reviews = [
       name: 'Kushlendra Singh',
       job: 'Businessman(AttackBox)',
       image:
-        'https://res.cloudinary.com/dhuagtzvw/image/upload/v1708412125/images/ctwxawnkkckvva10twbn.png',
+        'https://res.cloudinary.com/dhuagtzvw/image/upload/v1709699081/images/vfu33lap3rtfm7zsr8si.png',
       text:
        "Since joining Shark CyberTech, I have gained practical insights into the industry. Their approach involves presenting real-world scenarios, allowing me to incorporate this valuable experience into my career.",
     },
