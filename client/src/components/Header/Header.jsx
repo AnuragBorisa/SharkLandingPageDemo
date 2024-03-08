@@ -51,7 +51,7 @@ const Header = () => {
           {" "}
           Certificates{" "}
         </a>
-        <a href="#four" className="header-links-effects">
+        <a href="#" className="header-links-effects" onClick={isHeaderBtnClickedHandler}>
           {" "}
           Contact{" "}
         </a>

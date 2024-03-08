@@ -7,7 +7,7 @@ import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 import { faDiscord } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import sharklogo from "../resourcecs/Images/Shar_Logo-01 (1).png";
 import RevealHeading from "../Utilites/RevealHeading/RevealHeading";
 const FooterComponent = () => {
@@ -35,10 +35,10 @@ const FooterComponent = () => {
             <h4>FOLLOW US</h4>
             <ul>
               <li>
-                <a href="#">Github</a>
+                <a href="https://github.com/SharkCyberTech">Github</a>
               </li>
               <li>
-                <a href="#">Discord</a>
+                <a href="https://discord.com/channels/@me">Discord</a>
               </li>
             </ul>
           </div>
@@ -61,19 +61,19 @@ const FooterComponent = () => {
           <p>© 2024 SharK CyberTech™</p>
         </div>
         <div className="footer-social">
-          <a href="#">
+          <a href="https://www.facebook.com/SharkCyberTech">
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
-          <a href="#">
+          <a href="https://discord.com/channels/@me">
             <FontAwesomeIcon icon={faDiscord} />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/sharkcybertech?igsh=MzRlODBiNWFlZA==">
             <FontAwesomeIcon icon={faInstagram} />
           </a>
-          <a href="#">
-            <FontAwesomeIcon icon={faTwitter} />
+          <a href="https://github.com/SharkCyberTech">
+            <FontAwesomeIcon icon={faGithub} />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/company/shark-cybertech/">
             <FontAwesomeIcon icon={faLinkedin} />
           </a>
         </div>
