@@ -26,7 +26,7 @@ const ThankYou = () => {
         We"ll reach you out immediately
       </div>
      <Link to={"/"}> <button className="thank-you-btn">Go Home</button> </Link>
-      <h3>Lets Conncect</h3>
+      <h3>Lets Connect</h3>
       <div className="thank-you-social">
           <a href="#">
             <FontAwesomeIcon icon={faFacebookF} />
