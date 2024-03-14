@@ -12,6 +12,7 @@ export const Home = () => {
   return (
     <>
    <Header />
+   
    <MainPage />
    <CourseContent />
    <Promises />
