@@ -98,7 +98,7 @@ const Form = (props) => {
               <LeftToRight>   <b>EMAIL</b> </LeftToRight>
               </label>
               <input
-                type="text"
+                type="Email"
                 placeholder="Enter Email"
                 name="email"
                 required
