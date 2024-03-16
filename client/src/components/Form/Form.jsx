@@ -94,7 +94,7 @@ const Form = (props) => {
               />{" "}
             </div>
             <div className="internal-forms">
-              <label htmlFor="email">
+              <label for="Email">
               <LeftToRight>   <b>EMAIL</b> </LeftToRight>
               </label>
               <input
