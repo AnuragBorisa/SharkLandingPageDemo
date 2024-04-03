@@ -3,25 +3,29 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import { coursesAndTitles } from "./store/CourseContentConstant";
 import { CourseContentProvider } from "./store";
 import TagManager from "react-gtm-module";
+
+
 const tagManagerArgs = {
   gtmId: "GTM-TSPT2PMX",
 };
 
+
 TagManager.initialize(tagManagerArgs);
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
+  
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter  basename="/" >
       
         <CourseContentProvider CourseContent={coursesAndTitles}>
           <App />
         </CourseContentProvider>
      
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 

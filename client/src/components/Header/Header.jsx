@@ -8,6 +8,7 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { useEffect } from "react";
 import Form from "../Form/Form";
 import LeftToRight from "../Utilites/Animations/LeftToRight";
+import { HashLink } from "react-router-hash-link";
 const Header = () => {
   const [isClicked, setIsClicked] = useState(false);
   const [bgColor, setBgColor] = useState(false);
@@ -39,21 +40,24 @@ const Header = () => {
       {/* <img src={sharklogo} alt='logo' className='header-logo'></img> */}
 
       <div className="navlinks">
-        <a href="/" className="header-links-effects">
-          {" "}
-          Home{" "}
-        </a>
-        <a href="#two" className="header-links-effects">
-          {" "}
-          Courses{" "}
-        </a>
-        <a href="#three" className="header-links-effects">
+        <HashLink smooth to="/#home" className="header-links-effects">
+          Home
+        </HashLink>
+        <HashLink smooth to="/#two" className="header-links-effects">
           {" "}
           Certificates{" "}
-        </a>
-        <a href="#" className="header-links-effects" onClick={isHeaderBtnClickedHandler}>
+        </HashLink>
+        <HashLink smooth to="/#three" className="header-links-effects">
           {" "}
           Contact{" "}
+        </HashLink>
+
+        <a
+          href="#"
+          className="header-links-effects"
+          onClick={isHeaderBtnClickedHandler}
+        >
+          Courses
         </a>
 
         {/* <NavLink className="header-links-effects" to="/">
@@ -92,38 +96,38 @@ const Header = () => {
         />
         {isClicked ? (
           <div className="mobileLinks">
-            <a
-              href="/"
+            <HashLink
+             smooth to="/#home"
               className="internal-mobile-links"
               onClick={isClickedHandler}
             >
               {" "}
               <LeftToRight> Home </LeftToRight>{" "}
-            </a>
-            <a
-              href="#two"
+            </HashLink>
+            <HashLink
+             smooth to="/#two"
               className="internal-mobile-links"
               onClick={isClickedHandler}
             >
               {" "}
               <LeftToRight> Courses </LeftToRight>{" "}
-            </a>
-            <a
-              href="#three"
+            </HashLink>
+            <HashLink
+            smooth to="/#three"
               className="internal-mobile-links"
               onClick={isClickedHandler}
             >
               {" "}
               <LeftToRight> Certificates </LeftToRight>{" "}
-            </a>
-            <a
-              href="#four"
+            </HashLink>
+            <HashLink
+             smooth to="/#four"
               className="internal-mobile-links"
               onClick={isClickedHandler}
             >
               {" "}
               <LeftToRight> Contact </LeftToRight>{" "}
-            </a>
+            </HashLink>
             {/* <NavLink className="internal-mobile-links" to="/">
               <LeftToRight> Home </LeftToRight>
             </NavLink>

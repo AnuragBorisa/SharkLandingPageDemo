@@ -11,7 +11,7 @@ const MainPage = () => {
     setIsClicked(!isClicked);
   };
   return (
-    <section className="main-pge-container">
+    <section className="main-pge-container" id="home">
       <div className="main-pge-right">
         <div className="heading ">
           <div className="wel-tag ">
