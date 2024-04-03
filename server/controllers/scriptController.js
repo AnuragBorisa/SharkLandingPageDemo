@@ -8,12 +8,16 @@ const serviceAccountAuth = new JWT({
   scopes: ['https://www.googleapis.com/auth/spreadsheets'],
 });
 
-const doc = new GoogleSpreadsheet('1mxMIVstJY7AgxqktMT4PfCWeRwc6nbGkKf5jpMv43DM', serviceAccountAuth);
+
 
 async function accessSpreadsheet(req, res) {
   try {
+  
+  const {fullName,email, phoneNumber,services} = req.body;
+  let id = services?"1b6lgCZAT7frOmmQzIVFGhEk_wVSgVXK2WwvPIYytdCc":'1mxMIVstJY7AgxqktMT4PfCWeRwc6nbGkKf5jpMv43DM'
 
-  const {fullName,email, phoneNumber} = req.body;
+  const doc = new GoogleSpreadsheet(id, serviceAccountAuth);
+ 
   await doc.loadInfo();
   console.log(doc.title);
 
